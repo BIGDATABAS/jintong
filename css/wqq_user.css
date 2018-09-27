@@ -1,0 +1,181 @@
+.wechat_box{
+	padding: 2.28rem 1.1rem 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.wechat_box .wechat_choose{
+	font-weight: 600;
+	font-size: 0.32rem;
+	color: #646666;
+	margin-bottom: 0.82rem;
+}
+.wechat_box .login_num{
+	width: 100%;
+	height: 0.6rem;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	border-bottom: 0.02rem solid #eef1f2;
+	margin-bottom: 0.4rem;
+	padding-bottom: 0.3rem;
+}
+.wechat_box .login_num img{
+	display: block;
+	width: 0.4rem;
+	height: auto;
+	margin-top: 0.06rem;
+	margin-right: 0.1rem;
+}
+.wechat_box .login_num p{
+	font-size: 0.16rem;
+	line-height: 0.22rem;
+	color: #40b1ff;
+	margin-right: 0.24rem;
+}
+.wechat_box .login_num input{
+	background: none;
+	outline: none;
+	border: none;
+}
+.wechat_box .login_num input::-webkit-input-placeholder{
+	font-size: 0.22rem;
+	color: #c9cbcc;
+	line-height: 0.22rem;
+}
+
+
+.wechat_box .login_mess{
+	width: 100%;
+	height: 0.6rem;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	border-bottom: 0.02rem solid #eef1f2;
+	margin-bottom: 0.4rem;
+	padding-bottom: 0.3rem;
+}
+.wechat_box .login_mess img{
+	display: block;
+	width: 0.4rem;
+	height: auto;
+	margin-top: 0.06rem;
+	margin-left: 0.1rem;
+	margin-right: 0.2rem;
+}
+.wechat_box .login_mess input{
+	background: none;
+	outline: none;
+	border: none;
+	width: 60%;
+}
+.wechat_box .login_mess input::-webkit-input-placeholder{
+	font-size: 0.22rem;
+	color: #c9cbcc;
+	line-height: 0.22rem;
+}
+.wechat_box .login_mess .mess_btn{
+	width: 1.56rem;
+	height: 0.46rem;
+	line-height: 0.46rem;
+	text-align: center;
+	font-size: 0.22rem;
+	color: #fff;
+	background-image: linear-gradient(to right,#37e06f,#32d69a);
+	box-shadow: 0 0.04rem 0.2rem 0 rgba(55, 223, 116, 0.75);
+	border-radius: 0.23rem;
+}
+.wechat_box .login_fast{
+	width: 3.86rem;
+	height: 0.52rem;
+	background: #3bacfe;
+	text-align: center;
+	line-height: 0.52rem;
+	font-size: 0.2rem;
+	font-weight: 600;
+	color: #fff;
+	border-radius: 0.26rem;
+	margin-bottom: 0.32rem;
+}
+
+
+.wechat_box .login_pass{
+	width: 100%;
+	height: 0.6rem;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	border-bottom: 0.02rem solid #eef1f2;
+	margin-bottom: 0.4rem;
+	padding-bottom: 0.3rem;
+}
+.wechat_box .login_pass img{
+	display: block;
+	width: 0.4rem;
+	height: auto;
+	margin-top: 0.06rem;
+	margin-right: 0.1rem;
+}
+.wechat_box .login_pass input{
+	background: none;
+	outline: none;
+	border: none;
+	width: 100%;
+}
+.wechat_box .login_pass input::-webkit-input-placeholder{
+	font-size: 0.22rem;
+	color: #c9cbcc;
+	line-height: 0.22rem;
+}
+
+.wechat_box .login_repass{
+	width: 100%;
+	height: 0.6rem;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	border-bottom: 0.02rem solid #eef1f2;
+	margin-bottom: 0.4rem;
+	padding-bottom: 0.3rem;
+}
+.wechat_box .login_repass img{
+	display: block;
+	width: 0.4rem;
+	height: auto;
+	margin-top: 0.06rem;
+	margin-right: 0.1rem;
+}
+.wechat_box .login_repass input{
+	background: none;
+	outline: none;
+	border: none;
+	width: 100%;
+}
+.wechat_box .login_repass input::-webkit-input-placeholder{
+	font-size: 0.22rem;
+	color: #c9cbcc;
+	line-height: 0.22rem;
+}
+
+
+.wechat_box .login_last{
+	font-size: 0.22rem;
+	color: #afb1b2;
+	padding-left: 0.4rem;
+	position: relative;
+}
+.wechat_box .login_last:before{
+	content: "";
+	width: 0.25rem;
+	height: 0.25rem;
+	background: #e7f6ff;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto 0;
+	background-image: url('../img/wqq_dbpoint.png');
+	background-position: center center;
+	background-size: cover;
+}

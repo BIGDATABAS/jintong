@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="https://at.alicdn.com/t/font_853412_esx3w1a2tre.css">
+	<link rel="stylesheet" href="css/swiper-4.4.1.min.css">
+	<link rel="stylesheet" href="css/index.css">
+	<script src="js/swiper-4.3.5.min.js"></script>
+</head>
+<body>
+	<!-- 头部开始 -->
+	<nav>
+		<div class="top">
+		    <img src="img/wpc_Back.png" alt="" class="Back">
+		    <div class="container">
+		        <h2>标题</h2>
+		    </div>
+		    <img src="img/wpc_Dots.png" alt="" class="Dots">
+		</div>
+		<!-- 搜索开始 -->
+		<div class="index_nav">
+			<div class="index_location">
+				<p class="index_city">太原</p>
+				<i class="iconfont icon-jiantou-copy-copy"></i>
+			</div>
+			<div class="index_search">
+				<input type="text" placeholder="搜索您需要的服务 商品">
+				<div class="index_pic">
+					<img src="img/wqq_search.png" alt="">
+				</div>
+			</div>
+		</div>
+		<!-- 搜索结束 -->
+	</nav>
+	
+	<!-- 头部结束 -->
+
+
+	
+
+	<!-- 轮播图开始 -->
+	<div class="index_banner">
+		<div class="swiper-container index_banner">
+	    <div class="swiper-wrapper">
+	        <div class="swiper-slide"><img src="img/wqq_banner.png" alt="" class="index_bn_pic"></div>
+	        <div class="swiper-slide"><img src="img/wqq_banner.png" alt="" class="index_bn_pic"></div>
+	        <div class="swiper-slide"><img src="img/wqq_banner.png" alt="" class="index_bn_pic"></div>
+	    </div>
+	    <!-- 如果需要分页器 -->
+	    <div class="swiper-pagination"></div>
+	</div>
+	</div>
+	<!-- 轮播图结束 -->
+
+	<!-- 服务开始 -->
+	<div class="index_service">
+		<div class="container">
+			<ul class="index_first">
+				<li>
+					<img src="img/wqq_water.png" alt="">
+					<p>水路综合</p>
+				</li>
+				<li>
+					<img src="img/wqq_shuiguan.png" alt="">
+					<p>水管维修</p>
+				</li>
+				<li>
+					<img src="img/wqq_guandao.png" alt="">
+					<p>管道维修</p>
+				</li>
+			</ul>
+			<ul>
+				<li>
+					<img src="img/wqq_longtou.png" alt="">
+					<p>龙头维修</p>
+				</li>
+				<li>
+					<img src="img/wqq_floor.png" alt="">
+					<p>地漏疏通</p>
+				</li>
+				<li>
+					<img src="img/wqq_door.png" alt="">
+					<p>阀门维修</p>
+				</li>
+			</ul>
+			<ul>
+				<li>
+					<img src="img/wqq_sewer.png" alt="">
+					<p>下水道疏通</p>
+				</li>
+				<li>
+					<img src="img/wqq_more.png" alt="">
+					<p>其他</p>
+				</li>
+				<li>
+					
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- 服务结束 -->
+
+
+
+	<!-- 轮播图js -->
+	<script>        
+	  var mySwiper = new Swiper ('.swiper-container', {
+	    direction: 'horizontal', // 垂直切换选项
+	    loop: true, // 循环模式选项
+	    
+	    // 如果需要分页器
+	    pagination: {
+	      el: '.swiper-pagination',
+	    },
+	    
+	    // 如果需要前进后退按钮
+	    navigation: {
+	      nextEl: '.swiper-button-next',
+	      prevEl: '.swiper-button-prev',
+	    },
+	    
+	    // 如果需要滚动条
+	    scrollbar: {
+	      el: '.swiper-scrollbar',
+	    },
+	  })        
+	  </script>
+</body>
+</html>
