@@ -1,45 +1,99 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: "苹方";
     list-style: none;
     box-sizing: border-box;
 }
-i{
+
+i {
     font-style: normal;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
+.top {
+    width: 100%;
+    height: .88rem;
+    background: #fbfeff;
+    position: relative;
+    box-shadow: .06rem 0 .21rem rgba(41, 127, 255, .13);
+}
+
+.Back {
+    position: absolute;
+    left: .24rem;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    width: .25rem;
+    height: .41rem;
+}
+
+.Dots {
+    position: absolute;
+    right: .24rem;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    width: .45rem;
+    height: .12rem;
+}
+
+.container {
+    width: 100%;
+    padding-left: .24rem;
+    padding-right: .24rem;
+}
+
+.container h2 {
+    display: block;
+    text-align: center;
+    line-height: .88rem;
+    color: #4ebbfe;
+    font-size: .38rem;
+}
 
 @media screen and (min-width: 360px) {
-    html{
-        font-size: calc(360/750*100px)
+    html {
+        font-size: calc(360 / 750 * 100px)
     }
 }
+
 @media screen and (min-width: 375px) {
-    html{
-        font-size: calc(375/750*100px)
+    html {
+        font-size: calc(375 / 750 * 100px)
     }
 }
+
 @media screen and (min-width: 412px) {
-    html{
-        font-size: calc(412/750*100px)
+    html {
+        font-size: calc(412 / 750 * 100px)
     }
 }
+
 @media screen and (min-width: 414px) {
-    html{
-        font-size: calc(414/750*100px)
+    html {
+        font-size: calc(414 / 750 * 100px)
     }
 }
+
+@media screen and (min-width: 750px) {
+    html {
+        font-size: calc(750 / 750 * 100px)
+    }
+}
+
 @media screen and (min-width: 768px) {
-    html{
-        font-size: calc(768/750*100px)
+    html {
+        font-size: calc(768 / 750 * 100px)
     }
 }
+
 @media screen and (min-width: 1024px) {
-    html{
-        font-size: calc(1024/750*100px)
+    html {
+        font-size: calc(1024 / 750 * 100px)
     }
 }

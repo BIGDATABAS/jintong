@@ -1,0 +1,199 @@
+/*
+* @Author: ZX
+* @Date:   2018-09-27 11:34:12
+* @Last Modified by:   ZX
+* @Last Modified time: 2018-09-27 16:51:40
+*/
+
+.order_title{
+	padding: 0 0.24rem;
+	display: flex;
+	justify-content: space-between;
+}
+.order_title .order_text{
+	padding: 0 0.14rem;
+	font-size: 0.24rem;
+	color: rgba(0, 0, 0, 0.4);
+	line-height: 0.82rem;
+	border-bottom: 0.02rem solid #fff;	
+}
+.order_title .active{
+	border-bottom: 0.02rem solid #36a8fe;
+	color: #8A8C8D;
+}
+.order_line{
+	width: 100%;
+	height: 0.01rem;
+	background:repeating-linear-gradient(to right,#39a9ff,#80f9d8);
+
+}
+.order_sons{
+	position: fixed;
+	top: 1.71rem;
+	left: 0;
+	display: none;
+}
+.order_dive{
+	padding: 0.42rem 0.24rem;
+	display: flex;
+	padding-bottom: 0.32rem;
+}
+.order_dive .order_coat{
+	border-radius: 0.1rem;
+	width: 1.76rem;
+	height: 1.76rem;
+	box-shadow: 0 0 0.24rem 0.01rem rgba(0, 0, 0, 0.1);
+}
+.order_dive .order_coat img{
+	display: block;
+	border-radius: 0.1rem;
+	width: 1.76rem;
+	height: 1.76rem;
+}
+.order_dive .order_text{
+	margin-left: 0.1rem;
+	padding-left: 0.24rem;
+	width:5.16rem;
+	height:1.76rem;
+	position: relative;
+}
+.order_dive .order_text h3{
+	font-size: 0.3rem;
+	color: rgba(0, 0, 0, 0.6);
+}
+.order_dive .order_text .jie{
+	font-size: 0.26rem;
+	color: #43C93E;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.order_dive .order_text .order_type,.order_sever{
+	display: flex;
+	align-items: center;
+}
+.order_dive .order_text .order_dot{
+	width: 0.06rem;
+	height: 0.06rem;
+	border-radius: 50%;
+	background: #36a8fe;
+}
+.order_dive .order_text p{
+	margin-left: 0.06rem;
+	font-size: 0.26rem;
+	color: #36a8fe;
+	font-weight: bold;
+	line-height: 0.4rem;
+}
+.order_dive .order_text .order_sever p{
+	font-size: 0.22rem;
+	color: rgba(0, 0, 0, 0.3);
+}
+.order_dive .order_text .order_sever span{
+	font-size: 0.26rem;
+	color: #36a8fe;
+	padding: 0 0.1rem;
+	font-weight: bolder;
+}
+.order_dive .order_text .order_price{
+	display: flex;
+	justify-content: space-between;
+}
+.order_dive .order_text .order_price .order_left,.order_right{
+	display: flex;
+	align-items: center;
+}
+.order_dive .order_text .order_price .order_dot{
+	width: 0.06rem;
+	height: 0.06rem;
+	border-radius: 50%;
+	background: #36a8fe;
+}
+.order_dive .order_text .order_price p{
+	margin-left: 0.06rem;
+	font-size: 0.26rem;
+	color: rgba(0, 0, 0, 0.4);
+	line-height: 0.8rem;
+	font-weight: bolder;
+}
+.order_dive .order_text .order_price1 p{
+	line-height: 1.6rem;
+}
+.order_dive .order_text .order_price .order_right .order_reduce,.order_add{
+	width: 1.18rem;
+	height: 0.52rem;
+	background: #F1FAFF;
+	border-radius: 0.26rem;
+	text-align: center;
+	line-height: 0.52rem;
+	font-size: 0.26rem;
+	font-weight: bolder;
+	color: #36a8fe;
+}
+.order_dive .order_text .order_price .order_right .order_add{
+	color: #fff;
+	background:#36a8fe; 
+	box-shadow: 0 0.04rem 0.08rem 0.04rem rgba(59, 172, 254, 0.4);
+}
+.order_dive .order_text .order_price .order_right span{
+	padding:0.1rem;
+	font-size: 0.26rem;
+}
+.order_outf{
+	padding: 0 0.24rem;
+	display: flex;
+	justify-content: flex-end;
+}
+.order_outf .order_fact{
+	display: flex;
+	align-items: center;
+}
+.order_fact .order_dot{
+	width: 0.06rem;
+	height: 0.06rem;
+	border-radius: 50%;
+	background: #36a8fe;
+}
+.order_fact .order_right{
+	color: #FBB548;
+	font-size: 0.24rem;
+	padding-left: 0.1rem;
+}
+.order_word{
+	padding: 0.1rem 0.24rem;
+	display: flex;
+	justify-content: flex-end;
+}
+.order_word p{
+	font-size: 0.22rem;
+	color: rgba(0, 0, 0, 0.3);
+}
+.order_pay{
+	padding: 0.3rem 0.24rem;
+	display: flex;
+	justify-content: flex-end;
+}
+.order_pay .order_payment{
+	display: flex;
+	align-items: center;
+}
+.order_pay .order_payment .order_reduce,.order_add{
+	width: 1.96rem;
+	height: 0.6rem;
+	background: #F1FAFF;
+	border-radius: 0.26rem;
+	text-align: center;
+	line-height: 0.6rem;
+	font-size: 0.26rem;
+	font-weight: bolder;
+	color: #36a8fe;
+}
+.order_pay .order_payment .order_add{
+	margin-left: 0.24rem;
+	color: #fff;
+	background:repeating-linear-gradient(to right,#37e06f,#32d69a);
+	box-shadow: 0 0.04rem 0.12rem 0.05rem rgba(59, 172, 254, 0.4);	
+}
+.order_pay .order_payment .order_add1{
+	width: 2.69rem;	
+}
