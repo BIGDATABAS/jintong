@@ -1,0 +1,52 @@
+body{
+	background: #fbfeff;
+}
+.gold{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+.gold .goldIn{
+	width: 6.84rem;
+	height: 3.32rem;
+	background-image: url('../img/lyk_bgr.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+.goldP{
+	margin-top: 2.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.gold .goldIn img{
+	width: 0.1rem;
+	height: 0.07rem;
+	margin: 0 0.1rem;
+}
+.gold .goldIn span{
+	font-size: 0.26rem;
+}
+.gold .goldIn span i{
+	font-size: 0.46rem;
+	font-weight: bold;
+}
+
+.cons{
+	width:6.42rem ;
+	height: 0.83rem;
+	font-size: 0.24rem;
+	color: rgb(0, 0, 0,0.5);
+	margin: 0 auto;
+	border-bottom: 1px solid rgb(0, 0, 0,0.04);
+	border-top: 1px solid rgb(0, 0, 0,0.04);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.cons i{
+	padding-left:0.16rem ;
+}

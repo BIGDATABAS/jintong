@@ -1,0 +1,144 @@
+.sele{
+	width: 100%;
+	height: 1.3rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 1.1rem;
+}
+.sele ul{
+	width:6.89rem ;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	/* background: red; */
+}
+.sele ul li{
+	font-size: 0.2rem;
+	color: #3bacfe;
+	width: 1.4rem;
+	height: 0.54rem;
+	border-radius: 0.28rem;
+	background: #e7f6ff;
+	text-align: center;
+	line-height: 0.54rem;
+}
+.sele .col{
+	color: #fff;
+	background:#3bacfe ;
+	box-shadow: 0 0.05rem 0.15rem rgba(59, 172, 254, 0.43);
+	z-index: 20;
+}
+
+.mf{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+.mf ul{
+	width: 6.89rem;
+	height: auto;
+}
+.mf ul li{
+	width: 100%;
+	height: 1.83rem;
+	margin-bottom: 0.3rem;
+	border-radius: 0.1rem;
+	padding: 0.34rem 0.2rem 0.16rem 0.2rem;
+}
+.mf ul li:nth-child(1){
+	background: linear-gradient(to right,#27d29c,#33e171);
+	box-shadow: 0 0.1rem 0.22rem rgba(46, 219,129,0.43);
+}
+.mf ul li:nth-child(2){
+	background: linear-gradient(to right,#34a3f8,#3fdef1);
+	box-shadow: 0 0.1rem 0.22rem rgba(57, 192,245,0.43);
+}
+.mf ul li:nth-child(3){
+	background: linear-gradient(to right,#ffb637,#ffde47);
+	box-shadow: 0 0.1rem 0.22rem rgba(255, 219,53,0.43);
+}
+.mf ul li .mif{
+	height: 0.8rem;
+	border-bottom: 0.01rem solid rgba(255, 255, 255, 0.2);
+} 
+.mf ul li img{
+	width: 1.52rem;
+	height: 0.68rem;
+	float: left;
+}
+.mf ul li h1{
+	font-size: 0.26rem;
+	color: #fff;
+}
+.mf ul li h2{
+	font-size: 0.2rem;
+	color: rgba(255, 255, 255,0.6);
+}
+.mf ul li span{
+	font-size: 0.94rem;
+	font-weight: bold;
+	color: #fff;
+	float: right;
+	margin-top: -1.1rem;
+}
+.mf ul li span i{
+	font-size: 0.22rem;
+	color: #fff;
+	margin-left: -0.24rem;
+}
+.mf .data{
+	width: 100%;
+	height: 0.4rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.mf .data h4{
+	font-size: 0.2rem;
+	color: rgba(255, 255, 255, 0.6);
+}
+.mf .data .use{
+	color: #32e074;
+	width:1.44rem ;
+	height: 0.42rem;
+	background: #fff;
+	border-radius: 0.22rem;
+	text-align: center;
+	line-height: 0.42rem;
+	font-size: 0.2rem;
+}
+.mf .data .useT{
+	color:#38b9f5;
+	width:1.44rem ;
+	height: 0.42rem;
+	background: #fff;
+	border-radius: 0.22rem;
+	text-align: center;
+	line-height: 0.42rem;
+	font-size: 0.2rem;
+}
+.mf .data .useS{
+	color: #ffc33c;
+	width:1.44rem ;
+	height: 0.42rem;
+	background: #fff;
+	border-radius: 0.22rem;
+	text-align: center;
+	line-height: 0.42rem;
+	font-size: 0.2rem;
+}
+
+/* 已使用 */
+.used{
+	/* display: none; */
+} 
+.used .mf ul li{
+	background: #d7e0e3;
+	box-shadow: none;
+}
+.used .mf ul li .useS{
+	color:#d7e0e3 ;
+}
