@@ -1,0 +1,150 @@
+body,html{
+background: #fbfeff;
+}
+.top {
+    width: 100%;
+    height: .88rem;
+    background: #fbfeff;
+    position: relative;
+    box-shadow: 0rem 0 .21rem rgba(41, 127, 255, .13);
+}
+*{
+    font-weight: bold;
+}
+.Back {
+    position: absolute;
+    left: .24rem;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+
+.Dots {
+    position: absolute;
+    right: .24rem;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 0 0.24rem;
+}
+
+.container h2 {
+    display: block;
+    text-align: center;
+    line-height: .88rem;
+    color: #4ebbfe;
+    font-size: .38rem;
+}
+
+.main{
+    margin-top: 0.52rem;
+
+}
+.main img{
+    width: 1.22rem;
+    height: 1.22rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.post{
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    background: #44b5ff;
+    box-shadow: 0 0.01rem 0 0.02rem rgba(68,181,255,0.43);
+    margin-right: 0.1rem;
+}
+.main .head{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+h3{
+    font-size: 0.3rem;
+    color: rgba(0,0,0,0.6);
+}
+.main .head .text{
+    font-size: 0.26rem;
+    display: flex;
+    align-items: center;
+    color: #36a8fe;
+    font-family: "San Francisco Display";
+}
+.main .head .text:nth-of-type(2){
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.3);
+}
+.main .head .text:nth-of-type(3){
+    margin-top: 0.43rem;
+    font-size: 0.26rem;
+    color: #8a8c8d;
+}
+.num{
+    display: flex;
+    align-items: center;
+    color: #8a8c8d;
+    font-size: 0.24rem;
+    position: absolute;
+    bottom:0;
+    right: 0;
+  }
+.num .post,.main .bottom .post{
+    background: #36d681;
+    box-shadow: 0 0.01rem 0 0.02rem rgba(54,214,129,0.43);
+}
+.main .head .left{
+    width: 1.74rem;
+    height: 1.74rem;
+    background: white;
+    position: relative;
+    border-radius: 0.1rem;
+    box-shadow: 0 0  0.21rem 0 rgba(223,223,223,043);
+    margin-right: 0.27rem;
+}
+.main .bottom {
+    width: 100%;
+    height: 1.28rem;
+    line-height: 1.28rem;
+    border-bottom: 0.01rem solid rgba(0,0,0,0.3);
+}
+.main .bottom .newPrice{
+    font-size: 0.24rem;
+    color: #fbb548;
+    float: right;
+    display: flex;
+    align-items: center;
+}
+.contact .text{
+    margin-top: 0.65rem;
+}
+.contact .text img{
+    width: 0.2rem;
+    height: 0.12rem;
+    margin-right: 0.1rem;
+}
+.contact .text .con{
+    display: flex;
+    align-items: center;
+}
+.contact .text .con h3{
+    font-size: 0.26rem;
+    color: #41b2fc;
+}
+.contact .text:nth-of-type(2) .con h3{
+    color: #44d98a;
+}
+.contact .text p{
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.3);
+    margin-left: 0.3rem;
+    margin-top: 0.1rem;
+}
