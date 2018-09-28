@@ -2,7 +2,7 @@
 * @Author: ZX
 * @Date:   2018-09-27 11:34:12
 * @Last Modified by:   ZX
-* @Last Modified time: 2018-09-27 16:51:40
+* @Last Modified time: 2018-09-28 09:08:52
 */
 
 .order_title{
@@ -197,3 +197,60 @@
 .order_pay .order_payment .order_add1{
 	width: 2.69rem;	
 }
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 1rem;
+    background: #f1faff;
+}
+.foot{
+    width: 100%;
+    height: 100%;
+    background: #f1faff;
+    padding-right: .53rem;
+    padding-left: .53rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.foot li{
+    width: .5rem;
+    height: .8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot li p{
+    font-size: .24rem;
+}
+.yes{
+    color: #59c3fe;
+}
+.no{
+    color: #9ddcff;
+}
+.img_1{
+    width: .44rem;
+    height: .46rem;
+}
+.img_2{
+    width: .32rem;
+    height: .48rem;
+}
+.img_3{
+    width: .40rem;
+    height: .40rem;
+}
+.img_4{
+    width: .48rem;
+    height: .34rem;
+}
+.img_5{
+    width: .40rem;
+    height: .40rem;
+}
+

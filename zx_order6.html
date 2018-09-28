@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+	<link rel="stylesheet" href="https://at.alicdn.com/t/font_853412_hr864hzm086.css">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/zx_order6.css">
+	<script src="js/jquery-3.3.1.js"></script>
+</head>
+<body>
+	<div class="top">
+		<a href="zx_order3.html">
+		    <img src="img/wpc_Back.png" alt="" class="Back">
+	    </a>
+	    <div class="container">
+	        <h2>发表评价</h2>
+	    </div>
+	</div>
+	<div class="order_dec">
+		<div class="order_text">
+			<div class="order_dot"></div>
+			<h3>描述相符</h3>
+		</div>
+		<div class="order_star">
+			<i class="iconfont icon-xingxing"></i>
+			<i class="iconfont icon-xingxing"></i>
+			<i class="iconfont icon-xingxing"></i>
+			<i class="iconfont icon-xingxing"></i>
+			<i class="iconfont icon-xingxing"></i>
+		</div>
+		<div class="order_said">非常差</div>
+	</div>
+	<div class="order_feel">
+		<textarea name="" id="" cols="30" rows="10" placeholder="宝贝满足你的期待吗？                                                  说说你的使用心得，分享给想买的他们吧！"></textarea>
+	</div>
+	<div class="order_up">
+		<div class="order_img">
+			 <input type="file" name="" id="" style="display: none">
+			<img src="img/zx_camra.png" alt="" id="imgUploads">
+		</div>
+	</div>
+	<div class="order_addpic">添加图片</div>
+	<div class="order_anony">
+		<div class="order_anyone">
+			<div class="order_left">
+				<div class="order_roll"></div>
+				<h3>匿名</h3>
+			</div>
+			<div class="order_right">
+				<h3>您的评论能帮助其他小伙伴哦</h3>
+			</div>
+		</div>
+	</div>
+	<div class="order_shop">
+		<div class="order_text">
+			<div class="order_dot"></div>
+			<h3>店铺评分</h3>
+		</div>
+	</div>
+	<div class="order_dec">
+		<div class="order_text">
+			<h3>物流服务</h3>
+		</div>
+		<div class="order_star1">
+			<i class="iconfont icon-xingxing"></i>
+			<i class="iconfont icon-xingxing"></i>
+			<i class="iconfont icon-xingxing"></i>
+			<i class="iconfont icon-xingxing"></i>
+			<i class="iconfont icon-xingxing"></i>
+		</div>
+		<div class="order_said">不满意</div>
+	</div>
+	<div class="order_dec order_dec1">
+		<div class="order_text">
+			<h3>服务态度</h3>
+		</div>
+		<div class="order_star2">
+			<i class="iconfont icon-xingxing"></i>
+			<i class="iconfont icon-xingxing"></i>
+			<i class="iconfont icon-xingxing"></i>
+			<i class="iconfont icon-xingxing"></i>
+			<i class="iconfont icon-xingxing"></i>
+		</div>
+		<div class="order_said order_said1">还可以</div>
+	</div>
+	<div class="order_bottom">
+		<div class="order_post">发布</div>
+	</div>
+</body>
+</html>
+<script>
+	$(".order_star>.icon-xingxing").click(function() {
+		let i=$(this).index();
+		$(".order_star>.icon-xingxing").eq(i).toggleClass("active");
+	})
+	$(".order_star1>.icon-xingxing").click(function() {
+		let i=$(this).index();
+		$(".order_star1>.icon-xingxing").eq(i).toggleClass("active");
+	})
+
+	$(".order_star2>.icon-xingxing").click(function() {
+		let i=$(this).index();
+		$(".order_star2>.icon-xingxing").eq(i).toggleClass("active");
+	})
+
+	 $("#imgUploads").click(function () {
+        $(this).prev().click();
+    })
+</script>

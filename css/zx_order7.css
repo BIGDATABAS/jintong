@@ -1,0 +1,105 @@
+/*
+* @Author: ZX
+* @Date:   2018-09-27 23:31:01
+* @Last Modified by:   ZX
+* @Last Modified time: 2018-09-28 14:18:45
+*/
+.order_clerk{
+	width: 100%;
+	padding: 0 0.48rem;
+	position: relative;
+}
+.order_clerk .order_box{
+	width: 100%;
+	padding: 0 0.24rem;
+	border-bottom: 0.01rem solid rgba(0, 0, 0, 0.1);
+	position: relative;
+}
+.order_clerk .order_box1{
+	border-bottom:none;
+}
+.order_clerk .order_box h3{
+	font-size: 0.3rem;
+	color: #8A8C8D;
+	padding-top: 0.24rem;
+}
+.order_clerk .order_box .word{
+	font-size: 0.3rem;
+	color: #36A8FE;
+	padding-top: 0.24rem;
+}
+.order_clerk .order_box p{
+	color: #8A8C8D;
+	font-size: 0.24rem;
+}
+.order_clerk .order_box .zhong_time{
+	color: #D9DBDC;	
+}
+.order_clerk .order_box .wei_time{
+	color: #DFE2E3;	
+}
+
+.order_clerk .order_box .detail{
+	color:#BFC1C2;
+}
+.order_clerk .order_box .order_time{
+	display: flex;
+	align-items: center;
+}
+.order_clerk .order_box .order_time .order_dot{
+	width: 0.06rem;
+	height: 0.06rem;
+	border-radius: 50%;
+	background: #44b5ff;
+}
+.order_clerk .order_box .order_time p{
+	font-size: 0.18rem;
+	padding: 0.24rem 0.1rem;
+}
+.order_clerk .order_point{
+	width: 0.25rem;
+	height: 0.25rem;
+	border-radius: 50%;
+	border: 0.04rem solid #36a8fe;
+	position: absolute;
+	top: 0.3rem;
+	left: -0.24rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.order_clerk .order_point .order_sp{
+	width: 0.09rem;
+	height: 0.09rem;
+	background: #fbb548;
+	border-radius: 50%;
+}
+.order_line{
+	width: 0.01rem;
+	height: 3.4rem;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.1);
+	left: 0.36rem;
+	top: 0.56rem;
+}
+.order_clerk .order_point1{
+	background: #fff;
+	border: 0.04rem solid #e5e5e5;
+	z-index: 3;
+}
+.order_clerk .order_point1 .order_sp{
+	background: #e5e5e5;
+}
+.order_bottom{
+	width: 1.66rem;
+	height: 0.6rem;
+	background: #e7f6ff;
+	border-radius: 0.3rem;
+	color: #3BACFE;
+	font-size: 0.27rem;
+	text-align: center;
+	line-height: 0.6rem;
+	position: fixed;
+	bottom: 0.24rem;
+	right: 0.24rem;
+}
