@@ -1,0 +1,204 @@
+.top{
+	margin-bottom: 0.8rem;
+}
+.overall{
+	width: 100%;
+	height: 4rem;
+	background-image: url('../img/mem_1.png');
+	background-repeat: no-repeat;
+	background-size: 7.02rem;
+	background-position:top center;
+	position: relative;
+	padding-top: 2.06rem;
+}
+.overall .one_th{
+	width: 6.40rem;
+	height: 1.87rem;
+	border-radius: 0.1rem;
+	background: #fff;
+	box-shadow: 0.01rem 0rem 0.25rem rgba(227, 227, 277, 0.75);
+	padding: 0.1rem;
+	position: absolute;
+	top: -0.5rem;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	margin-bottom: 0.74rem;
+}
+.overall .one_th .one_td{
+	width: 100%;
+	height: 1rem;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0.3rem;
+}
+.overall .one_th .one_td .one_lr{
+	width: 3.68rem;
+	display: flex;
+	justify-content: space-between;
+}
+.overall .one_th .one_td img{
+	width: 1.3rem;
+	height: 1.3rem;
+}
+.overall .one_th .one_td .one_lr .one_zhong{
+	width: 2.46rem;
+	height: 100%;
+	padding-top: 0.3rem;
+}
+.overall .one_lr .one_zhong p{
+	font-size: 0.3rem;
+	color: rgba(0, 0, 0, 0.5);
+}
+.overall .one_lr .one_zhong .one_foot{
+	display: flex;
+}
+.overall .one_lr .one_zhong .one_foot .dian{
+	width: 0.08rem;
+	height: 0.08rem;
+	background: #29c99a;
+	border-radius: 50%;
+	margin-top: 0.12rem;
+	margin-right: 0.05rem;
+}
+.overall .one_lr .one_zhong .one_foot h6{
+	font-size: 0.22rem;
+	color: rgba(0, 0, 0, 0.3);
+	margin-right: 0.1rem;
+}
+.overall .one_lr .one_zhong .one_foot .sp{
+	font-size: 0.24rem;
+	color: #59bffe;
+}
+.overall .one_lr .one_zhong .one_foot .sp1{
+	font-size: 0.24rem;
+	color: rgba(0, 0, 0, 0.3);
+}
+.overall .one_td a{
+	font-size: 0.2rem;
+	color: #3bacfe;
+	margin-top: 0.2rem;
+	display: block;
+	height: 0.4rem;
+	line-height: 0.5rem;
+}
+.overall .one_td a>i{
+	padding-top: 0.1rem;
+}
+.overall .one_td a i:nth-child(1){
+color: #3bacfe;
+	font-size: 0.3rem;
+}
+.overall .one_td a i:nth-child(2){
+	color:#9dd5fe;
+	font-size: 0.3rem;
+	margin-left: -0.08rem;
+}
+.overall .one_td a i:nth-child(3){
+	color:#c4e6ff;
+	font-size: 0.3rem;
+	margin-left: -0.08rem;
+}
+.overall .one_th .two_td{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	padding-right: 0.05rem;
+}
+.overall .one_th .two_td .crown{
+	width: 0.4rem;
+	height: 0.36rem;
+}
+.overall .one_th .two_td .nowcrown{
+	width: 0.3rem;
+	height: 0.22rem;
+	margin-top: 0.03rem;
+}
+.overall .one_th .two_td p{
+	font-size: 0.22rem;
+	color: #999999;
+}
+.overall .one_th .two_td span{
+	width: 2.98rem;
+	height: 0.04rem;
+	background: #ddf3fe;
+	margin-top: 0.12rem;
+}
+.overall .one_th .two_td span>div{
+	width: 2.22rem;
+	height: 0.04rem;
+	background: -webkit-linear-gradient(left,#36b0fe,#34e0c6);
+}
+.overall .mem_th{
+	width: 100%;
+	height: 100%;
+}
+.overall .mem_th .mem_td{
+	width: 100%;
+	height: 3.07rem;
+	margin-bottom: 0.4rem;
+}
+.overall .mem_th .mem_td .title{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 0.45rem;
+}
+.overall .mem_th .mem_td .title .ma{
+	display: flex;
+	align-items: center;
+}
+.overall .mem_th .mem_td .main_left{
+	width: 0.1rem;
+	height: 0.05rem;
+	border-radius: 0.025rem;
+	background-color: #34da87;
+	box-shadow: 0px 2px 2px rgba(52, 218, 135, 0.43);
+}
+.overall .mem_th .mem_td .title p{
+	font-size: 0.32rem;
+	color: #44b5ff;
+	margin-left: 0.1rem;
+}
+.overall .mem_th .mem_td .title p>span{
+	font-size: 0.32rem;
+	color: #4f5b64;
+}
+.overall .mem_th .mem_td ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+.overall .mem_th .mem_td ul li{
+	height: 1.9rem;
+	display: block;
+	margin-right: 0.2rem;
+}
+.overall .mem_th .mem_td ul li img{
+	width: 1.5rem;
+	height: 1.5rem;
+	display: block;
+}
+.overall .mem_th .mem_td ul li h4{
+	font-size: 0.24rem;
+	color: #8e9397;
+	text-align: center;
+}
+.overall .mem_th .mem_td .title a{
+	font-size: 0.28rem;
+	color: #999;
+}
+.overall .mem_th .mem_td .title a i:nth-child(1){
+	color: #333;
+	font-size: 0.3rem;
+}
+.overall .mem_th .mem_td .title a i:nth-child(2){
+	color:#999;
+	font-size: 0.3rem;
+	margin-left: -0.08rem;
+}
+.overall .mem_th .mem_td .title a i:nth-child(3){
+	color:#c9cbcc;
+	font-size: 0.3rem;
+	margin-left: -0.08rem;
+}

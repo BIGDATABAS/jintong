@@ -1,0 +1,98 @@
+
+.top{
+	margin-bottom: 0.18rem;
+}
+.tu{
+	width: 100%;
+	height: 3.2rem;
+	background: url('../img/mem_1.png') no-repeat center;
+	background-size: 7.02rem 2.18rem;
+	padding: 0.62rem 0.4rem 0 ;
+}
+.tu .tu_ne{
+	width: 100%;
+	border-bottom: 0.01rem solid rgba(0, 0, 0, 0.05);
+}
+.tu .tu_ne img{
+	width: 1.18rem;
+	height: 1.5rem;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 0.44rem;
+}
+.tu .main_dt{
+	width: 2.36rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0.4rem;
+}
+.tu .main_dt .main_left{
+	width: 0.1rem;
+	height: 0.05rem;
+	border-radius: 0.025rem;
+	background-color: #3ab1ff;
+	box-shadow: 0px 2px 2px rgba(58, 177, 255, 0.43);
+	margin-top: 0.18rem;
+}
+.tu .main_dt p{
+	font-size: 0.26rem;
+	color: #4f5b64;
+	display: block;
+}
+.tu .main_dt p span{
+	font-size: 0.28rem;
+	font-weight: bold;
+	color: #32d796;
+}
+main{
+	width: 100%;
+	height: 5.37rem;
+	padding: 0.7rem 0.45rem;
+}
+main .con{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	padding-bottom: 0.7rem;
+	flex-direction: column;
+	justify-content: space-between;
+	border-bottom: 0.01rem solid rgba(0, 0, 0, 0.05);
+}
+main p{
+	font-size: 0.26rem;
+	color: rgba(0, 0, 0, 0.5);
+}
+main .title{
+	width: 100%;
+	height:1.06rem;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+main .title .ma{
+	display: flex;
+	align-items: center;
+	
+}
+main .main_left{
+	width: 0.1rem;
+	height: 0.05rem;
+	border-radius: 0.025rem;
+	background-color: #3ab1ff;
+	box-shadow: 0px 2px 2px rgba(58, 177, 255, 0.43);
+}
+main .title p{
+	font-size: 0.32rem;
+	color: rgba(0, 0, 0, 0.5);
+	margin-left: 0.1rem;
+}
+main .title h5{
+	font-size: 0.28rem;
+	color: #3ab1ff;
+}
+main .title .gree{
+	color: #68ce8a;
+}

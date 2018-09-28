@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/gq_center.css">
+	<script src="js/jquery-3.3.1.js"></script>
+</head>
+<body>
+	<div class="top">
+		<a href="lyk_person">
+			<img src="img/wpc_Back.png" alt="" class="Back">
+		</a>	
+		<div class="container">
+		    <h2>客服中心</h2>
+		</div>
+	</div>
+	<main>
+		<div class="container">
+			<ul>
+				<li>
+					<img src="img/gq_tu.png" alt="">
+					<p>蓝胖子</p>
+				</li>
+				<div class="list">买彩票点亮尊贵勋章-腾讯旗下购彩平</div>
+			</ul>
+			<div class="le_right">
+				<div class="le_tu">
+					<img src="img/gq_tu1.png" alt="">
+					<p>蓝胖子</p>
+				</div>
+				<div class="list1">请问有什么要帮助的</div>
+			</div>
+			<ul>
+				<li>
+					<img src="img/gq_tu.png" alt="">
+					<p>蓝胖子</p>
+				</li>
+				<div class="list stop">
+					<img src="img/gq_tu4.png" alt="">
+					<div class="line">
+						<div class="change"></div>
+						<div class="change"></div>
+						<div class="change"></div>
+						<div class="change"></div>
+						<div class="change"></div>
+						<div class="change"></div>
+						<div class="change"></div>
+						<div class="change"></div>
+						<div class="change"></div>
+						<div class="change"></div>
+						<div class="change"></div>
+						<div class="change"></div>
+						<div class="change"></div>
+						<div class="change"></div>
+						<div class="change"></div>
+						<div class="change"></div>
+						<div class="change"></div>
+						<div class="change"></div>
+						<div class="change"></div>
+						<div class="change"></div>
+						<div class="change"></div>
+						<div class="change"></div>
+						<div class="change"></div>
+						<div class="change"></div>
+						<div class="change"></div>
+						<div class="change"></div>
+						<div class="change"></div>
+						<div class="change"></div>
+					</div>
+				</div>
+				<span>01"43</span>
+			</ul>
+		</div>
+	</main>
+	<footer>
+		<div class="container">
+			<img src="img/gq_tu3.png" alt="">
+			<input type="text">
+			<img src="img/gq_tu2.png" alt="">
+		</div>
+	</footer>
+</body>
+</html>
+<script>
+	let flag=0;
+	t=setInterval(change());
+    $(".stop").click(function () {
+        if (flag==0){
+            t1=setInterval("change()",130);
+            flag=1;
+            return;
+		}
+		if (flag==1){
+            flag=0;
+            clearInterval(t1);
+            console.log(flag);
+            return;
+		}
+    });
+	function change() {
+        $(".change").each(function (i) {
+            let heights=Math.random()*0.36+0.06;
+            $(this).css("height",`${heights}rem`);
+        });
+    }
+</script>

@@ -1,0 +1,105 @@
+.top{
+	margin-bottom: 0.6rem;
+}
+main{
+	width: 100%;
+	height: 100%;
+}
+main ul{
+	display: flex;
+	align-items: center;
+	margin-bottom: 0.25rem;
+}
+main ul li{
+	width: 0.8rem;
+	margin-right: 0.2rem;
+}
+main ul li img{
+	display: block;
+	margin-bottom: 0.05rem;
+}
+main ul li p{
+	font-size: 0.2rem;
+	color: #989898;
+	text-align: center;
+}
+main ul .list{
+	height: 0.68rem;
+	font-size: 0.24rem;
+	padding-left: 0.2rem;
+	padding-right: 0.2rem;
+	line-height: 0.68rem;
+	color: #fff;
+	border-radius: 0 0.5rem 0.5rem;
+	box-shadow: 0 0.1rem 0.29rem rgba(41, 167, 255, 0.36);
+	background: repeating-linear-gradient(to right,#30a3fe, #6fd5fe);
+	display:flex;
+    align-items: center;
+}
+main ul .list .line{
+	width: 2.74rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0;
+	margin-left: 0.2rem;
+}
+main ul .list .line .change{
+	width: 0.01rem;
+	height: 0.06rem;
+	border:0.01rem solid #fff;
+}
+main ul span{
+	font-size: 0.2rem;
+	color: #6ad1fe;
+}
+main .le_right{
+	display: flex;
+	align-items: center;
+	flex-direction: row-reverse;
+}
+main .le_right .le_tu{
+	width: 0.8rem;
+	margin-left: 0.2rem;
+}
+main .le_right .le_tu img{
+	display: block;
+	margin-bottom: 0.05rem;
+}
+main .le_right .le_tu p{
+	font-size: 0.2rem;
+	color: #989898;
+	text-align: center;
+}
+main .le_right .list1{
+	height: 0.68rem;
+	font-size: 0.24rem;
+	padding-left: 0.2rem;
+	padding-right: 0.2rem;
+	line-height: 0.68rem;
+	color: #fff;
+	border-radius: 0.5rem 0rem 0.5rem 0.5rem;
+	box-shadow: 0 0.1rem 0.29rem rgba(41, 167, 255, 0.36);
+	background: repeating-linear-gradient(to right,#30a3fe, #6fd5fe);
+}
+footer{
+	height: 1rem;
+	width: 100%;
+	background: #36a8fe;
+	position: fixed;
+	bottom: 0;
+}
+footer .container{
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+footer input{
+	width: 5.24rem;
+	height: 0.55rem;
+	border-radius: 0.3rem;
+	border: 0.01rem solid #2993e3;
+	outline: none;
+	padding-left: 0.2rem;
+}

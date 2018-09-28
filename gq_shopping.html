@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,uesr-scalatle=no">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/gq_shopping.css">
+	<link rel="stylesheet" href="https://at.alicdn.com/t/font_853412_k5fugvhipoc.css">
+	<script src="js/jquery-3.3.1.js"></script>
+</head>
+<body>
+	<div class="top">
+		<a href="lyk_person">
+    		<img src="img/wpc_Back.png" alt="" class="Back">
+    	</a>	
+    <div class="container">
+        <h2>购物车</h2>
+    </div>
+</div>
+<main>
+	<div class="container">
+		<div class="list">
+			<div class="li_top">
+				<div class="li_left">
+					<div class="yuan show">
+						<img src="img/gq_dui.png" alt="">
+					</div>
+					<p>宅快修<i class="iconfont icon-dayuhao"></i></p>
+				</div>
+				<i class="iconfont icon-shanchu"></i>
+			</div>
+			<div class="li_zhong">
+				<div class="yuan vid">
+					<img src="img/gq_dui.png" alt="">
+				</div>
+				<img src="img/zx_shulongtou.png" alt="">
+				<ul>
+					<li>
+						<h4>潜水艇高端龙头</h4>
+						<div class="val-left">
+							<div class="yuan1">-</div>
+							<span>01</span>
+							<div class="yuan1 blue">+</div>
+						</div>
+					</li>
+					<p>¥ <span>60</span></p>
+				</ul>
+			</div>
+			<div class="li_button">
+				<div class="last">
+					<h6>合 计：</h6>
+					<p>¥ <span>162</span> </p>
+				</div>
+				<a href="">请下单</a>
+			</div>
+		</div>
+		<div class="list">
+			<div class="li_top">
+				<div class="li_left">
+					<div class="yuan show1">
+						<img src="img/gq_dui.png" alt="">
+					</div>
+					<p>宅快修<i class="iconfont icon-dayuhao"></i></p>
+				</div>
+				<i class="iconfont icon-shanchu"></i>
+			</div>
+			<div class="li_zhong">
+				<div class="yuan vid1">
+					<img src="img/gq_dui.png" alt="">
+				</div>
+				<img src="img/zx_shulongtou.png" alt="">
+				<ul>
+					<li>
+						<h4>潜水艇高端龙头</h4>
+						<div class="val-left">
+							<div class="yuan1">-</div>
+							<span>01</span>
+							<div class="yuan1 blue">+</div>
+						</div>
+					</li>
+					<p>¥ <span>60</span></p>
+				</ul>
+			</div>
+			<div class="li_button">
+				<div class="last">
+					<h6>合 计：</h6>
+					<p>¥ <span>162</span> </p>
+				</div>
+				<a href="">请下单</a>
+			</div>
+		</div>
+	</div>
+</main>
+<div class="ls">
+	<div class="container">
+		<div class="yuan">
+			<img src="img/gq_dui.png" alt="">
+		</div>
+		<p>全选</p>
+	</div>
+</div>
+<footer>
+	<div class="container">
+		<ul>
+			<li>
+				<p>· 合 计：<span>¥ <span>162</span></span></p>
+			</li>
+			<li class="yun">
+				<p>· 运费¥<span>20</span></p>
+			</li>
+		</ul>
+		<a href="">结算</a>
+	</div>
+</footer>
+</body>
+</html>
+<script>
+	$(".ls .yuan").click(function(){
+		$(".ls .yuan img").toggle();
+	})
+	$("main .li_left .show").click(function(){
+		$("main .li_left .show img").toggle();
+	})
+	$("main .li_left .show1").click(function(){
+		$("main .li_left .show1 img").toggle();
+	})
+	$("main .li_zhong .vid").click(function(){
+		$("main .li_zhong .vid img").toggle();
+	})
+	$("main .li_zhong .vid1").click(function(){
+		$("main .li_zhong .vid1 img").toggle();
+	})
+	let back=$("main .li_top .icon-shanchu");
+	back.click(function(){
+		// let i=$(this).index();
+		$("main .list").eq(1).hide();
+	})
+	console.log($("main .list"));
+</script>
