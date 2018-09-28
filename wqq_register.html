@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="https://at.alicdn.com/t/font_853412_esx3w1a2tre.css">
 	<link rel="stylesheet" href="css/wqq_register.css">
-	<script src="js/swiper-4.3.5.min.js"></script>
+	<script src="js/jquery-3.3.1.js"></script>
 </head>
 <body>
 	<!-- 头部开始 -->
@@ -27,20 +27,20 @@
 		<div class="login_num">
 			<img src="img/wqq_phone.png" alt="">
 			<p>+86</p>
-			<input type="text" placeholder="请填写手机号码">
+			<input type="text" placeholder="请填写手机号码" class="num_in">
 		</div>
 		<div class="login_mess">
 			<img src="img/wqq_point.png" alt="">
-			<input type="text" placeholder="短信验证码">
+			<input type="text" placeholder="短信验证码" class="code_in">
 			<div class="mess_btn">获取验证码</div>
 		</div>
 		<div class="login_pass">
 			<img src="img/wqq_pass.png" alt="">
-			<input type="text" placeholder="请填写6-20位字母 数字的密码">
+			<input type="password" placeholder="请填写6-20位字母 数字的密码" class="pass_in">
 		</div>
 		<div class="login_pass">
 			<img src="img/wqq_pass.png" alt="">
-			<input type="text" placeholder="重复输入您的密码">
+			<input type="password" placeholder="重复输入您的密码" class="repass_in">
 		</div>
 		<div class="login_fast">快速登陆</div>
 		<p class="login_last">注册即视为同意接受晋彤电商发送的商业性信息</p>
@@ -48,3 +48,32 @@
 	<!-- 内容结束 -->
 </body>
 </html>
+<script>
+	$(function(){
+		let num=$(".num_in");
+		let code=$(".code_in");
+		let pass=$(".pass_in");
+		let repass=$(".repass_in");
+		let btn=$(".login_fast");
+
+		btn.click(function(){
+			if(num.val().length==11){
+				if(code.val().length==4){
+					if(pass.val().length>=6 && pass.val().length<=20){
+						if(pass.val()==repass.val()){
+							window.open("index.html");
+						}else{
+							alert("两次密码不一致");
+						}
+					}else{
+						alert("密码为6-20位");
+					}
+				}else{
+					alert("验证码为4位");
+				}
+			}else{
+				alert(".手机号码为11位");
+			}
+		});
+	})
+</script>

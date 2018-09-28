@@ -7,12 +7,15 @@
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="https://at.alicdn.com/t/font_853412_esx3w1a2tre.css">
 	<link rel="stylesheet" href="css/wqq_city.css">
+	<script src="js/jquery-3.3.1.js"></script>
 </head>
 <body>
 	<!-- 头部开始 -->
 	<nav>
 		<div class="top">
-		    <img src="img/wpc_Back.png" alt="" class="Back">
+			<a href="zgldt.html">
+				<img src="img/wpc_Back.png" alt="" class="Back">
+			</a>
 		    <div class="container">
 		        <h2>切换城市</h2>
 		    </div>
@@ -41,10 +44,63 @@
 
 			<!-- A -->
 			<div class="city_a">
-				
+				<div class="city_letter">A</div>
+				<div class="city_desc">鞍山市</div>
+			</div>
+			<!-- B -->
+			<div class="city_b">
+				<div class="city_letter">B</div>
+				<div class="city_desc">保定河间市</div>
+				<div class="line"></div>
+				<div class="city_desc">保定河间市</div>
+				<div class="line"></div>
+				<div class="city_desc">保定河间市</div>
+				<div class="line"></div>
+				<div class="city_desc">保定河间市</div>
 			</div>
 		</div>
 	</div>
 	<!-- 当前定位结束 -->
+
+	<!-- 右侧字母开始 -->
+	<div class="city_right">
+		<p class="color">A</p>
+		<p>B</p>
+		<p>C</p>
+		<p>D</p>
+		<p>E</p>
+		<p>F</p>
+		<p>G</p>
+		<p>H</p>
+		<p>I</p>
+		<p>J</p>
+		<p>K</p>
+		<p>L</p>
+		<p>M</p>
+		<p>N</p>
+		<p>O</p>
+		<p>P</p>
+		<p>Q</p>
+		<p>R</p>
+		<p>S</p>
+		<p>T</p>
+		<p>U</p>
+		<p>V</p>
+		<p>W</p>
+		<p>X</p>
+		<p>Y</p>
+		<p>Z</p>
+		<p>#</p>
+	</div>
+	<!-- 右侧字母结束 -->
 </body>
 </html>
+<script>
+	$(function(){
+		let letter=$(".city_right p");
+		letter.click(function(){
+			$(this).siblings().removeClass("color");
+			$(this).addClass("color");
+		});
+	})
+</script>

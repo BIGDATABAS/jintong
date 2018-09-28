@@ -60,7 +60,6 @@ nav{
 	display: flex;
 	align-items: center;
 	justify-content: start;
-	margin-bottom: 0.28rem;
 }
 .city .city_pos img{
 	display: block;
@@ -85,3 +84,104 @@ nav{
 	line-height: 0.48rem;
 }
 /* 当前定位结束 */
+
+/* A */
+.city .city_a{
+	width: 100%;
+}
+.city .city_a .city_letter{
+	width: 0.43rem;
+	height: 0.43rem;
+	background: #36a8fe;
+	font-size: 0.19rem;
+	font-weight: 600;
+	color: #fff;
+	margin:0.3rem 0;
+	line-height: 0.43rem;
+	text-align: center;
+	border-radius: 50%;
+
+}
+.city .city_a .city_desc{
+	font-size: 0.24rem;
+	color: #979899;
+	margin-bottom: 0.3rem;
+	position: relative;
+	padding-left: 0.21rem;
+}
+.city .city_a .city_desc:before{
+	content: "";
+	width: 0.08rem;
+	height: 0.08rem;
+	background: #37ce9a;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto 0;
+	box-shadow: 0 0.02rem 0.05rem 0 rgba(55, 206, 154, 0.43);
+}
+/* A */
+
+/* B */
+.city .city_b{
+	width: 100%;
+}
+.city .city_b .city_letter{
+	width: 0.43rem;
+	height: 0.43rem;
+	background: #36a8fe;
+	font-size: 0.19rem;
+	font-weight: 600;
+	color: #fff;
+	margin:0.3rem 0;
+	line-height: 0.43rem;
+	text-align: center;
+	border-radius: 50%;
+
+}
+.city .city_b .city_desc{
+	font-size: 0.24rem;
+	color: #979899;
+	margin-bottom: 0.3rem;
+	position: relative;
+	padding-left: 0.21rem;
+}
+.city .city_b .city_desc:before{
+	content: "";
+	width: 0.08rem;
+	height: 0.08rem;
+	background: #37ce9a;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto 0;
+	box-shadow: 0 0.02rem 0.05rem 0 rgba(55, 206, 154, 0.43);
+}
+.city .city_b .line{
+	width: 100%;
+	height: 0.02rem;
+	background: #f6f9fa;
+}
+/* B */
+
+
+/* 右侧字母开始 */
+.city_right{
+	width: 0.12rem;
+	position: fixed;
+	right: 0.52rem;
+	top: 3.3rem;
+}
+.city_right p{
+	font-size: 0.12rem;
+	color: #c1c1c1;
+	margin-bottom: 0.22rem;
+}
+.city_right .color{
+	color: #36a8fe;
+}
+/* 右侧字母结束 */

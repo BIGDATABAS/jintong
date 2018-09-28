@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="css/swiper-4.4.1.min.css">
 	<link rel="stylesheet" href="css/index.css">
 	<script src="js/swiper-4.3.5.min.js"></script>
+	<script src="js/jquery-3.3.1.js"></script>
 </head>
 <body>
 	<!-- 头部开始 -->
@@ -16,22 +17,25 @@
 		<div class="top">
 		    <img src="img/wpc_Back.png" alt="" class="Back">
 		    <div class="container">
-		        <h2>标题</h2>
+		        <h2>晋彤</h2>
 		    </div>
-		    <img src="img/wpc_Dots.png" alt="" class="Dots">
+		    <!-- <img src="img/wpc_Dots.png" alt="" class="Dots"> -->
 		</div>
 		<!-- 搜索开始 -->
 		<div class="index_nav">
 			<div class="index_location">
-				<p class="index_city">太原</p>
+				<a href="zgldt.html"><p class="index_city">太原</p></a>
 				<i class="iconfont icon-jiantou-copy-copy"></i>
 			</div>
-			<div class="index_search">
-				<input type="text" placeholder="搜索您需要的服务 商品">
-				<div class="index_pic">
-					<img src="img/wqq_search.png" alt="">
+			<a href="wqq_search.html">
+				<div class="index_search">
+					<input type="text" placeholder="搜索您需要的服务 商品">
+					<div class="index_pic">
+						<img src="img/wqq_search.png" alt="">
+					</div>
 				</div>
-			</div>
+			</a>
+			
 		</div>
 		<!-- 搜索结束 -->
 	</nav>
@@ -59,10 +63,13 @@
 	<div class="index_service">
 		<div class="container">
 			<ul class="index_first">
-				<li>
-					<img src="img/wqq_water.png" alt="">
-					<p>水路综合</p>
-				</li>
+				<a href="wzj_water.html">
+					<li>
+						<img src="img/wqq_water.png" alt="">
+						<p>水路综合</p>
+					</li>
+				</a>
+				
 				<li>
 					<img src="img/wqq_shuiguan.png" alt="">
 					<p>水管维修</p>
@@ -103,6 +110,52 @@
 	</div>
 	<!-- 服务结束 -->
 
+	<!-- 底部开始 -->
+	<footer>
+        <ul class="foot">
+            <li>
+                <img src="img/index-yes.png" alt="" class="img_1">
+                <p class="yes">首页</p>
+            </li>
+            <li>
+                <img src="img/shop-no.png" alt="" class="img_2">
+                <p class="no">商店</p>
+            </li>
+            <li class="ruzhu">
+                <img src="img/enter-no.png" alt="" class="img_3">
+                <p class="no">入驻</p>
+            </li>
+            <li>
+                <img src="img/order-no.png" alt="" class="img_4">
+                <p class="no">订单</p>
+            </li>
+            <li>
+                <img src="img/my-no.png" alt="" class="img_5">
+                <p class="no">我的</p>
+            </li>
+        </ul>
+    </footer>
+	<!-- 底部结束 -->
+
+	<!-- 遮罩开始 -->
+	<div class="sd_box">
+		<div class="index_shade">
+			<div class="shade_top">
+				<div class="shade_shangjia">
+					<img src="img/wqq_shanagjia.png" alt="">
+					<p class="shade_text">商家入驻</p>
+				</div>
+				<div class="shade_shiusi">
+					<img src="img/wqq_shiusi.png" alt="">
+					<p class="shade_text">水司入驻</p>
+				</div>
+			</div>
+			<div class="shade_bottom">X</div>
+		</div>
+	</div>
+	
+	<!-- 遮罩结束 -->
+
 
 
 	<!-- 轮播图js -->
@@ -126,7 +179,24 @@
 	    scrollbar: {
 	      el: '.swiper-scrollbar',
 	    },
+	    autoplay: true,
 	  })        
 	  </script>
 </body>
 </html>
+<script>
+	$(function(){
+		let btn=$(".ruzhu");
+		let shade=$(".sd_box");
+		let close=$(".shade_bottom");
+		btn.click(function(){
+			shade.css("display","block");
+		});
+
+		close.click(function(){
+			shade.css("display","none");
+		});
+
+
+	})
+</script>
