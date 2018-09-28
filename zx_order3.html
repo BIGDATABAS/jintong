@@ -260,7 +260,7 @@
                 <img src="img/shop-no.png" alt="" class="img_2">
                 <p class="no">商店</p>
             </li>
-            <li>
+            <li class="ruzhu">
                 <img src="img/enter-no.png" alt="" class="img_3">
                 <p class="no">入驻</p>
             </li>
@@ -274,14 +274,63 @@
             </li>
         </ul>
     </footer>
+
+
+
+
+	<!-- 遮罩开始 -->
+	<div class="sd_box">
+		<div class="index_shade">
+			<div class="shade_top">
+				<div class="shade_shangjia">
+					<img src="img/wqq_shanagjia.png" alt="">
+					<p class="shade_text">商家入驻</p>
+				</div>
+				<div class="shade_shiusi">
+					<img src="img/wqq_shiusi.png" alt="">
+					<p class="shade_text">水司入驻</p>
+				</div>
+			</div>
+			<div class="shade_bottom">X</div>
+		</div>
+	</div>
+	
+	<!-- 遮罩结束 -->
+
+
+
+
+
+
+
 </body>
 </html>
 <script>
-    $(".order_text").mouseenter(function () {
+
+    $(function(){
+
+    	 $(".order_text").mouseenter(function () {
         let i=$(this).index();
-        console.log(i);
+        // console.log(i);
         $(".order_text").removeClass("active").eq(i).addClass("active");
         $(".order_sons").css("display","none").eq(i).css("display","block");
-    })
-    $(".order_text").triggerHandler("mouseenter");
+	    })
+	    $(".order_text").triggerHandler("mouseenter");
+
+
+
+		let btn=$(".ruzhu");
+		let shade=$(".sd_box");
+		let close=$(".shade_bottom");
+		btn.click(function(){
+			shade.css("display","block");
+		});
+
+		close.click(function(){
+			shade.css("display","none");
+		});
+
+
+	})  
+
 </script>
