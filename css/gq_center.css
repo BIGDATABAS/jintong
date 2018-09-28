@@ -49,9 +49,14 @@ main ul .list .line .change{
 	height: 0.06rem;
 	border:0.01rem solid #fff;
 }
-main ul span{
+/* main ul span{
 	font-size: 0.2rem;
 	color: #6ad1fe;
+} */
+main ul p{
+	font-size: 0.22rem;
+	color: #6ad1fe;
+	font-family: "San Francisco Display";
 }
 main .le_right{
 	display: flex;

@@ -10,7 +10,7 @@
 </head>
 <body>
 	<div class="top">
-		<a href="lyk_person">
+		<a href="lyk_person.html">
 			<img src="img/wpc_Back.png" alt="" class="Back">
 		</a>	
 		<div class="container">
@@ -71,7 +71,7 @@
 						<div class="change"></div>
 					</div>
 				</div>
-				<span>01"43</span>
+				<p><span>0</span><span>1</span>"<span>42</span></p>
 			</ul>
 		</div>
 	</main>
@@ -86,20 +86,46 @@
 </html>
 <script>
 	let flag=0;
-	t=setInterval(change());
-    $(".stop").click(function () {
+    let minute=$("main ul p:eq(2) span:eq(1)");
+    let	second=$("main ul p:eq(2) span:eq(2)");
+    let minutes=minute.html();
+    let seconds=second.html();
+    console.log(minutes);
+    t=setInterval(change());
+    $(".list").click(function () {
         if (flag==0){
             t1=setInterval("change()",130);
             flag=1;
+			t2=setInterval("count()",1000);
             return;
 		}
 		if (flag==1){
+            console.log(minutes, seconds);
             flag=0;
             clearInterval(t1);
-            console.log(flag);
+            clearInterval(t2);
             return;
 		}
     });
+    function count() {
+        seconds=second.html();
+		seconds--;
+		second.html(seconds);
+        minutes=minute.html();
+		if (seconds==-1&&minutes>0){
+            minutes--;
+            minute.html(minutes);
+            second.html(59);
+        }
+        if (seconds==0&&minutes==0){
+		    clearInterval(t1);
+            clearInterval(t2);
+            second.html(42);
+            minute.html(1);
+            flag=0;
+            return flag;
+		}
+    }
 	function change() {
         $(".change").each(function (i) {
             let heights=Math.random()*0.36+0.06;
