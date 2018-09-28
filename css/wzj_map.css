@@ -1,0 +1,209 @@
+.search{
+    width:100%;
+    height:0.8rem;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 0 0.1rem rgba(240,250,255,0.8);
+    background: #fbfeff;
+}
+.search-lf{
+    width:1rem;
+    height:0.6rem;
+    margin-left: 0.18rem;
+    margin-top: 0.15rem;
+}
+.search-lf a{
+    width:0.61rem;
+    height:0.33rem;
+    font-size: 0.28rem;
+    display: block;
+    color:#36a8fe;
+    float: left;
+}
+.search-lf img{
+    width:1.5rem;
+    height:1.2rem;
+    float: right;
+    margin-top: -0.6rem;
+}
+.search input{
+    width:5.93rem;
+    height:0.6rem;
+    margin-right: 0.2rem;
+    border-radius: 0.3rem;
+    border: 1px;
+    background: #f2faff;
+    padding-left: 0.3rem;
+    outline: none;
+    background-image: url("../img/zgl_sousuo.png");
+    background-repeat: no-repeat;
+    background-size: 0.6rem;
+    background-position: 4.84rem 0;
+ }
+ .address{
+     width:100%;
+     /* height:5.5rem; */
+     background: #fbfeff;
+     /* margin-top: -0.3rem; */
+ }
+ .address .address-top{
+     width:7rem;
+     height:2rem;
+     border-bottom: 1px solid #eef1f2;
+     margin:0 auto;
+ }
+ .address .address-top p{
+     height: 1rem;
+     font-size: 0.3rem;
+     color: #41b2fc;
+     line-height: 1rem;
+     position: relative;
+ }
+  .address .address-top p span{
+     font-size: 0.3rem;
+     color: #606569;
+
+ }
+  .address .address-top p:before{
+    content: "";
+    position: absolute;
+    width: 0.1rem;
+    height: 0.05rem;
+    background: #58ce9e;
+    top: 0.48rem;
+    left: -0.15rem;
+    border-radius: 0.03rem;
+    box-shadow: 0 0.02rem 0.05rem 0 rgba(52, 218, 135, 0.43);
+ }
+ .address .address-top .now_add{
+     width: 100%;
+     height: 1rem;
+     padding-top: 0.1rem;
+     margin-bottom: 0.2rem;
+ }
+.address .address-top .now_add .icon-dizhi{
+    font-size: 0.3rem;
+     color: #5BD13F;
+    margin-right: 0.1rem;
+}
+.now_add a{
+    display: block;
+    position: absolute;
+    font-size: 0.3rem;
+    color:#646666;
+}
+.now_add a.circle{
+    display: block;
+    position: absolute;
+    font-size: 0.3rem;
+    color:#646666;
+    margin-left: 0.2rem;
+}
+.now_add a.circle:before{
+    content: "";
+    position: absolute;
+    width: 0.1rem;
+    height: 0.1rem;
+    background: #53C5A1;
+    top: 0.2rem;
+    left: -0.15rem;
+    border-radius: 50%;
+    box-shadow: 0 0.02rem 0.05rem 0 rgba(52, 218, 135, 0.43);
+}
+.now_add h2{
+    position: absolute;
+    font-size: 0.22rem;
+    color:#b9bbbb;
+    margin-top: 0.5rem;
+    margin-left: 0.4rem;
+}
+.now_add h3{
+    position: absolute;
+    font-size: 0.22rem;
+    color:#b9bbbb;
+    margin-top: 0.5rem;
+    margin-left: 0.2rem;
+}
+.address .address-bt{
+    width:100%;
+    height:5.28rem;
+}
+.address .address-bt .dz{
+    width:7rem;
+    height:1.32rem;
+    margin:0 auto;
+    position: relative;
+}
+.dz img{
+    display: block;
+    position: absolute;
+    margin-top: 0.51rem;
+}
+.dz a{
+    display: block;
+    position: absolute;
+    font-size: 0.3rem;
+    color:#646666;
+    margin-top: 0.4rem;
+    margin-left: 0.35rem;
+}
+.dz h2{
+    position: absolute;
+    font-size: 0.22rem;
+    color:#b9bbbb;
+    margin-top: 0.8rem;
+    margin-left: 0.35rem;
+}
+.top{
+    box-shadow: none;
+}
+nav{
+    width: 100%;
+    height: 1.65rem;
+    box-shadow: .06rem 0 .21rem rgba(41, 127, 255, .13);
+
+}
+/* 搜索开始 */
+.search_nav{
+    height: 0.77rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 0 0.24rem;
+}
+.search_nav input{
+    width: 100%;
+    height: 0.6rem;
+    background: #f2faff;
+    border: 0.03rem solid #e8f6ff;
+    border-radius: 0.3rem;
+    padding-left: 0.3rem;
+    outline: none;
+}
+.search_nav input::-webkit-input-placeholder{
+    color: #c8d9e6;
+    font-size: 0.22rem;
+}
+.search_nav .search_pic{
+    width: 0.8rem;
+    height: 0.44rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0.45rem;
+    margin: auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #a4e0bd;
+    border-radius: 0.22rem;
+
+}
+.search_nav .search_pic img{
+    display: block;
+    width: 0.38rem;
+    height: 0.38rem;
+}
+/* 搜索结束 */

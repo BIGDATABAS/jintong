@@ -1,0 +1,165 @@
+/*
+* @Author: wzj1136
+* @Date:   2018-09-26 23:15:02
+* @Last Modified by:   wzj1136
+* @Last Modified time: 2018-09-27 13:45:10
+*/
+.top{
+	margin-bottom: 0.28rem;
+}
+.order_top{
+	width: 100%;
+	height: 1.63rem;
+	margin-bottom: 0.3rem;
+	padding: 0 0.24rem;
+}
+.order_top .container{
+	width: 100%;
+	height: 100%;
+	background: #f1faff;
+	padding: 0.48rem 0.4rem 0;
+}
+.order_top .order_name{
+	width: 100%;
+	height: 0.3rem;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0.2rem;
+}
+.order_top .order_name .name_left{
+	width: 3.12rem;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.order_name .name_left p{
+	font-size: 0.25rem;
+	color: #36a8fe;
+}
+.order_name .name_right{
+	width: 0.5rem;
+	height: 100%;
+}
+.order_name .name_right .icon-dayuhao{
+	display: block;
+	float: right;
+	line-height: 0.3rem;
+	font-size: 0.25rem;
+	color: #36a8fe;
+}
+.order_top .order_address{
+	width: 100%;
+	height: 0.3rem;
+	text-align: center;
+}
+.order_top .order_address p{
+	font-size: 0.2rem;
+	color: #787d7f;
+}
+.order_tro{
+	width: 100%;
+	height: 2.25rem;
+}
+.order_tro .container{
+	width: 100%;
+	height: 2.25rem;
+	background:#fbfeff;	
+	display: flex;
+	justify-content: space-between;
+}
+.order_tro .tro_left{
+	width: 1.72rem;
+	height: 1.72rem;
+	background: #fff;
+	padding: 0.22rem;
+}
+.order_tro .tro_left img{
+	width: 1.2rem;
+	height: 1.2rem;
+}
+.order_tro .tro_right{
+	width: 5.07rem;
+	height: 1.72rem;
+	padding-top: 0.35rem;
+}
+.order_tro .tro_right h3{
+	font-size: 0.25rem;
+	color: #000;
+	margin-bottom: 0.15rem;
+}
+.order_tro .tro_right h5{
+	font-size: 0.15rem;
+	color: #afb1b2;
+	margin-bottom: 0.15rem;
+}
+.order_tro .tro_right h4{
+	color: #7ac0fe;
+	font-size: 0.2rem;
+}
+.add_choose{
+	width: 100%;
+	height: 1.25rem;
+}
+.add_choose .container{
+	width: 100%;
+	height: 1.25rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+}
+.add_choose .add_left{
+	width: 1.5rem;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	line-height: 0.7rem;
+}
+.add_choose .add_left .icon-duigou{
+	display: block;
+	font-size: 0.25rem;
+	color: #e7f6ff;
+}
+.add_choose .add_left .color{
+	color: #36dd7c;
+}
+.add_choose .add_left p{
+	font-size: 0.3rem;
+	color: #98d3fe;
+}
+.add_choose .add_right{
+	width: 1.2rem;
+	height: 100%;
+	font-size: 0.25rem;
+	display: flex;
+	justify-content: space-between;
+	line-height: 0.7rem;
+}
+.add_choose .add_right .icon-shanchu{
+	color: #36a8fe;
+	display: block;
+}
+.add_choose .add_right .icon-ico_compile{
+	color: #44cc77;
+	display: block;
+}
+.day_bottom{
+	width: 100%;
+	height: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position:fixed;
+	left: 0;
+	bottom: 0;
+}
+.day_bottom button.yes{
+	width: 4.5rem;
+	height: 0.6rem;
+	background-image: linear-gradient(to right,#37df73,#32d698);
+	border: none;
+	outline: none;
+	border-radius: 0.5rem;
+	color: #fff;
+	font-size: 0.3rem;
+	box-shadow: 0 0 0.25rem 0rem rgba(55, 223, 126, 0.75);
+}
