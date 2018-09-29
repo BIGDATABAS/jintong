@@ -23,7 +23,7 @@
 	</div>
 	<div class="order_item">
 		<div class="order_sever">
-			<div class="order_coupon">
+			<div class="order_coupon order_coupon2">
 				<div class="order_left">
 					<div class="order_dot"></div>
 					<p>水龙头维修</p>
@@ -35,7 +35,7 @@
 					<div class="order_sp"></div>
 				</div>
 			</div>
-			<div class="order_coupon">
+			<div class="order_coupon order_coupon2">
 				<div class="order_left">
 					<div class="order_dot"></div>
 					<p>水龙头更换</p>
@@ -44,7 +44,7 @@
 					<div class="order_sp"></div>
 				</div>
 			</div>
-			<div class="order_coupon order_coupon1">
+			<div class="order_coupon order_coupon1 order_coupon2">
 				<div class="order_left">
 					<div class="order_dot"></div>
 					<p>其他</p>
@@ -70,7 +70,7 @@
 				</div>
 				<div class="order_right">
 					<div class="order_reduce">-</div>
-					<span>0</span>
+					<span class="order_num">0</span>
 					<div class="order_add">+</div>
 				</div>				
 			</div>
@@ -80,7 +80,7 @@
 					<p>水管</p>
 				</div>
 				<div class="order_num">
-					<p>×<span>1</span></p>
+					<p>×<span class="order_num">1</span></p>
 				</div>
 				<div class="order_money">
 					￥<span>45.00</span>
@@ -104,7 +104,7 @@
 				</div>
 				<div class="order_right">
 					<div class="order_reduce">-</div>
-					<span>1</span>
+					<span class="order_num">1</span>
 					<div class="order_add">+</div>
 				</div>
 			</div>
@@ -121,7 +121,7 @@
 				</div>
 				<div class="order_right">
 					<div class="order_reduce">-</div>
-					<span>1</span>
+					<span class="order_num">1</span>
 					<div class="order_add">+</div>
 				</div>
 			</div>
@@ -226,37 +226,23 @@
     })
 
 
-
-
-
-
-      $(".order_point").eq(0).click(function(){
-    	$(".order_point").eq(0).addClass("active1");
-    	$(".order_point").eq(1).removeClass("active1");
-    	$(".order_point").eq(2).removeClass("active1");
-    	$(".order_sp").eq(0).css("display","block");
-    	$(".order_sp").eq(1).css("display","none");
-    	$(".order_sp").eq(2).css("display","none");
+   $(".order_point").click(function(){
+   		$(this).parent().siblings().children().removeClass("active1");
+    	$(this).addClass("active1");
+    	$(".order_point").parent().siblings().children(".order_point").children().css("display","none");	
+    	$(this).children(".order_sp").css("display","block");  
+    	
     })
-       $(".order_point").eq(1).click(function(){
-    	$(".order_point").eq(1).addClass("active1");
-    	$(".order_point").eq(0).removeClass("active1");
-    	$(".order_point").eq(2).removeClass("active1");
-    	$(".order_sp").eq(1).css("display","block");
-    	$(".order_sp").eq(0).css("display","none");
-    	$(".order_sp").eq(2).css("display","none");
-    })
-        $(".order_point").eq(2).click(function(){
-    	$(".order_point").eq(2).addClass("active1");
-    	$(".order_point").eq(1).removeClass("active1");
-    	$(".order_point").eq(0).removeClass("active1");
-    	$(".order_sp").eq(2).css("display","block");
-    	$(".order_sp").eq(1).css("display","none");
-    	$(".order_sp").eq(0).css("display","none");
-    })
+  
+   // console.log($(".order_point").parent().siblings().children(".order_point").children());
 
     $("#imgUploads").click(function () {
         $(this).prev().click();
     })
+
+
+
+
+
 
 </script>
