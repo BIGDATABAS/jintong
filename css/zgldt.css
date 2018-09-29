@@ -1,3 +1,6 @@
+html,body{
+    overflow: hidden;
+}
 .search{
     width:100%;
     height:0.8rem;
@@ -97,4 +100,8 @@
 }
 .top{
     box-shadow: none;
+}
+.map{
+    width:100%;
+    height:auto;
 }

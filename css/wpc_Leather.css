@@ -231,10 +231,13 @@ nav {
 }
 .bao_sum .hz{
     position: absolute;
+    width:100%;
 }
 .bao_something{
     display: flex;
     margin-bottom: .32rem;
+    width:100%;
+    height:auto;
 }
 .bao_sum:nth-child(2){
     display: none;
@@ -245,23 +248,25 @@ nav {
 
 .baR{
     width:100%;
+    height:auto;
     display: flex;
     flex-direction: column;
     padding-left: .26rem;
 }
 .ba_img{
-    width: 1.98rem;
-    height: 1.98rem;
+    width: 2.06rem;
+    height: 2.06rem;
     border-radius: .1rem;
     background:#ffffff;
     position: relative;
     box-shadow: .01rem 0 .21rem rgba(223,223,223,.43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .ba_img img{
     width: 1.8rem;
     height: 1.8rem;
-    position: absolute;
-    margin-left: 0.1rem;
 }
 .ba_top{
     width: 100%;
@@ -355,7 +360,7 @@ nav {
     line-height: .4rem;
 }
 .pj-nr{
-    width:7rem;
+    width:100%;
     margin-top: 0.52rem;
 }
 .pj-nr .tx{
@@ -382,7 +387,7 @@ nav {
     width:2.5rem;
     height:0.4rem;
     position: relative;
-    margin-left: 2rem;
+    margin-left: 2.3rem;
     position: absolute;
     margin-top: -0.85rem;
     display: flex;
@@ -401,7 +406,7 @@ nav {
     font-size: 0.22rem;
     color:#9ed5ff;
     position: absolute;
-    margin-left: 5.5rem;
+    margin-left: 7.5rem;
     margin-top: -0.8rem;
 }
 .pj-nr h3{
@@ -451,3 +456,4 @@ nav {
 .topt .active{
     border-bottom: 0.03rem solid #3bacfe;
 }
+

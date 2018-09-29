@@ -1,3 +1,6 @@
+html,body{
+    overflow: hidden;
+}
 .top{
     box-shadow: none;
 }
@@ -75,7 +78,7 @@
 .service .service-top a{
     font-size: 0.32rem;
     float: right;
-    margin-top: -2.3rem;
+    margin-top: 0.05rem;
     margin-right: 5.35rem;
     color:#41b2fc;
 }
