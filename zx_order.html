@@ -56,7 +56,7 @@
 			<p>优惠券</p>
 		</div>
 		<div class="order_right order_choose">
-			<p>无可用优惠券</p>
+			<p class="aa">无可用优惠券</p>
 			<i class="iconfont icon-dayuhao"></i>
 		</div>	
 	</div>
@@ -265,6 +265,7 @@
 </body>
 </html>
 <script>
+
     $(".order_choose").click(function(){
     	$(".order_mask").css("display","block");
     })
@@ -273,24 +274,12 @@
     })
      $(".order_close").click(function(){
     	$(".order_mask").css("display","none");
+    	$(".aa").html($(".order_dis .order_left p").html());
     })
 
-
-    $(".order_dis").eq(0).click(function(){
-    	$(".order_point").eq(0).addClass("active");
-    	$(".order_point").eq(1).removeClass("active");
-    	$(".order_point").eq(2).removeClass("active");
-    
-    })
-     $(".order_dis").eq(1).click(function(){
-    	$(".order_point").eq(1).addClass("active");
-    	$(".order_point").eq(0).removeClass("active");
-    	$(".order_point").eq(2).removeClass("active");
-    })
-      $(".order_dis").eq(2).click(function(){
-    	$(".order_point").eq(2).addClass("active");
-    	$(".order_point").eq(0).removeClass("active");
-    	$(".order_point").eq(1).removeClass("active");
+      $(".order_dis").click(function(){
+    	$(this).siblings().children('.order_point').removeClass("active");  
+    	$(this).children('.order_point').addClass("active");    
     })
 
 </script>
