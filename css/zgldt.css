@@ -55,15 +55,15 @@ html,body{
      margin:0 auto;
  }
 .address .address-top img{
-    margin-top:0.21rem;
+    margin-top:0.4rem;
     float: left;
 }
 .address .address-top a{
     font-size: 0.32rem;
     float: right;
-    margin-top: -2.3rem;
     margin-right: 5.35rem;
     color:#41b2fc;
+    line-height: 0.93rem;
 }
 .address .address-top span{
     color:#4f5b64;
