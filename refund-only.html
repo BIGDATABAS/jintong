@@ -71,6 +71,7 @@
                     <img src="img/refund-only-2.png" alt="">
                     <h3>退款<span>凭证</span><p>（最多六张）</p></h3>
                 </div>
+                <input type="file" class="up" style="display: none">
                 <div class="camera">
                     <img src="img/refund-only-3.png" alt="">
                 </div>
@@ -143,4 +144,6 @@
     let texts=$(".alert .text");
     let mains=$(".mains");
     find(renson,alerts,close,button,texts,mains);
+    let camera=$(".camera");
+    upload(camera);
 </script>

@@ -19,3 +19,9 @@ function find(renson,alerts,close,button,texts,mains){
         alerts.slideUp();
     });
 }
+function upload(camera) {
+    camera.click(function () {
+        $(this).prev().click();
+        console.log($(this).prev());
+    });
+}
