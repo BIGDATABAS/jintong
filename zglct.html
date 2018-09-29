@@ -67,7 +67,7 @@
             <div class="name">
                 <h2>用户名</h2>
                 <div class="dbx dbx1">
-                    <div class="ic iconfont icon-xingxing active"></div>
+                    <div class="ic iconfont icon-xingxing"></div>
                     <div class="ic iconfont icon-xingxing"></div>
                     <div class="ic iconfont icon-xingxing"></div>
                     <div class="ic iconfont icon-xingxing"></div>
@@ -83,7 +83,7 @@
             <div class="name">
                 <h2>用户名</h2>
                 <div class="dbx dbx2">
-                    <div class="ic iconfont icon-xingxing active"></div>
+                    <div class="ic iconfont icon-xingxing"></div>
                     <div class="ic iconfont icon-xingxing"></div>
                     <div class="ic iconfont icon-xingxing"></div>
                     <div class="ic iconfont icon-xingxing"></div>
@@ -161,9 +161,11 @@
         <div class="rg">
             加入购物车
         </div>
-        <div class="xb">
-            立即下单
-        </div>
+        <a href=" wzj_add_address">
+            <div class="xb">
+                立即下单
+            </div>
+        </a>
     </div>
 </footer>
 </body>
@@ -172,14 +174,14 @@
     $(".dbx1>.ic").click(function() {
         let i=$(this).index();
         $(".dbx1>.ic").eq(i).prevAll().addClass("active");
-        $(".dbx1>.ic").eq(i).toggleClass("active");
+        $(".dbx1>.ic").eq(i).addClass("active");
         $(".dbx1>.ic").eq(i).nextAll().removeClass("active");
 
     })
     $(".dbx2>.ic").click(function() {
         let i=$(this).index();
         $(".dbx2>.ic").eq(i).prevAll().addClass("active");
-        $(".dbx2>.ic").eq(i).toggleClass("active");
+        $(".dbx2>.ic").eq(i).addClass("active");
         $(".dbx2>.ic").eq(i).nextAll().removeClass("active");
 
     })

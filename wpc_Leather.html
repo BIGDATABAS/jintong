@@ -317,7 +317,7 @@
             <div class="name">
                 <h2>用户名</h2>
                 <div class="dbx dbx1">
-                    <div class="ic iconfont icon-xingxing active"></div>
+                    <div class="ic iconfont icon-xingxing"></div>
                     <div class="ic iconfont icon-xingxing"></div>
                     <div class="ic iconfont icon-xingxing"></div>
                     <div class="ic iconfont icon-xingxing"></div>
@@ -333,7 +333,7 @@
                 <div class="name">
                     <h2>用户名</h2>
                     <div class="dbx dbx2">
-                        <div class="ic iconfont icon-xingxing active"></div>
+                        <div class="ic iconfont icon-xingxing"></div>
                         <div class="ic iconfont icon-xingxing"></div>
                         <div class="ic iconfont icon-xingxing"></div>
                         <div class="ic iconfont icon-xingxing"></div>
@@ -349,7 +349,7 @@
                 <div class="name">
                     <h2>用户名</h2>
                     <div class="dbx dbx3">
-                        <div class="ic iconfont icon-xingxing active"></div>
+                        <div class="ic iconfont icon-xingxing"></div>
                         <div class="ic iconfont icon-xingxing"></div>
                         <div class="ic iconfont icon-xingxing"></div>
                         <div class="ic iconfont icon-xingxing"></div>
@@ -369,21 +369,21 @@
     $(".dbx1>.ic").click(function() {
         let i=$(this).index();
         $(".dbx1>.ic").eq(i).prevAll().addClass("active");
-        $(".dbx1>.ic").eq(i).toggleClass("active");
+        $(".dbx1>.ic").eq(i).addClass("active");
         $(".dbx1>.ic").eq(i).nextAll().removeClass("active");
 
     })
     $(".dbx2>.ic").click(function() {
         let i=$(this).index();
         $(".dbx2>.ic").eq(i).prevAll().addClass("active");
-        $(".dbx2>.ic").eq(i).toggleClass("active");
+        $(".dbx2>.ic").eq(i).addClass("active");
         $(".dbx2>.ic").eq(i).nextAll().removeClass("active");
 
     })
     $(".dbx3>.ic").click(function() {
         let i=$(this).index();
         $(".dbx3>.ic").eq(i).prevAll().addClass("active");
-        $(".dbx3>.ic").eq(i).toggleClass("active");
+        $(".dbx3>.ic").eq(i).addClass("active");
         $(".dbx3>.ic").eq(i).nextAll().removeClass("active");
 
     })
