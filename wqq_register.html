@@ -58,10 +58,10 @@
 
 		btn.click(function(){
 			if(num.val().length==11){
-				if(code.val().length==4){
+				if(code.val().length==6){
 					if(pass.val().length>=6 && pass.val().length<=20){
 						if(pass.val()==repass.val()){
-							window.open("index.html");
+							window.open("wqq_user.html");
 						}else{
 							alert("两次密码不一致");
 						}
@@ -69,10 +69,10 @@
 						alert("密码为6-20位");
 					}
 				}else{
-					alert("验证码为4位");
+					alert("验证码为6位");
 				}
 			}else{
-				alert(".手机号码为11位");
+				alert("手机号码为11位");
 			}
 		});
 	})

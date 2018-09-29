@@ -49,6 +49,10 @@
 	justify-content: space-between;
 	padding: 0 0.7rem;
 }
+.wechat_box  .wechat_btn a{
+	display: flex;
+	align-items: center;
+}
 .wechat_box  .wechat_btn button.btn_cancel{
 	outline: none;
 	width: 1.34rem;
