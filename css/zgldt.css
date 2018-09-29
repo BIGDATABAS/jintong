@@ -1,0 +1,100 @@
+.search{
+    width:100%;
+    height:0.8rem;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 0 0.1rem rgba(240,250,255,0.8);
+    background: #fbfeff;
+}
+.search-lf{
+    width:1rem;
+    height:0.6rem;
+    margin-left: 0.18rem;
+    margin-top: 0.15rem;
+}
+.search-lf a{
+    width:0.61rem;
+    height:0.33rem;
+    font-size: 0.28rem;
+    display: block;
+    color:#36a8fe;
+    float: left;
+}
+.search-lf img{
+    width:1.5rem;
+    height:1.2rem;
+    float: right;
+    margin-top: -0.6rem;
+}.search input{
+    width:5.93rem;
+    height:0.6rem;
+    margin-right: 0.2rem;
+    border-radius: 0.3rem;
+    border: 1px;
+    background: #f2faff;
+    padding-left: 0.3rem;
+    outline: none;
+    background-image: url("../img/zgl_sousuo.png");
+    background-repeat: no-repeat;
+    background-size: 0.6rem;
+    background-position: 4.84rem 0;
+ }
+ .address{
+     width:100%;
+     height:7.27rem;
+     background: #fbfeff;
+     margin-top: -0.3rem;
+ }
+ .address .address-top{
+     width:7rem;
+     height:0.93rem;
+     border-bottom: 1px solid #eef1f2;
+     margin:0 auto;
+ }
+.address .address-top img{
+    margin-top:0.21rem;
+    float: left;
+}
+.address .address-top a{
+    font-size: 0.32rem;
+    float: right;
+    margin-top: -2.3rem;
+    margin-right: 5.35rem;
+    color:#41b2fc;
+}
+.address .address-top span{
+    color:#4f5b64;
+}
+.address .address-bt{
+    width:100%;
+    height:5.28rem;
+}
+.address .address-bt .dz{
+    width:7rem;
+    height:1.32rem;
+    margin:0 auto;
+    position: relative;
+}
+.dz img{
+    display: block;
+    position: absolute;
+    margin-top: 0.51rem;
+}
+.dz a{
+    display: block;
+    position: absolute;
+    font-size: 0.3rem;
+    color:#646666;
+    margin-top: 0.4rem;
+    margin-left: 0.35rem;
+}
+.dz h2{
+    position: absolute;
+    font-size: 0.22rem;
+    color:#b9bbbb;
+    margin-top: 0.8rem;
+    margin-left: 0.35rem;
+}
+.top{
+    box-shadow: none;
+}

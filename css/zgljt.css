@@ -1,0 +1,282 @@
+.top{
+    box-shadow: none;
+}
+.topt{
+    width:100%;
+    height:1.18rem;
+    background: #fbfeff;
+    box-shadow: 0 0.12rem 0.2rem 0.1rem rgba(238, 248, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+
+}
+.topt-xx{
+    width:1.34rem;
+    height:0.53rem;
+    background: #e7f6ff;
+    border-radius: 0.265rem;
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.53rem;
+    color:#3bacfe;
+    margin-right: 0.25rem;
+}
+.topt .active{
+    background: #3bacfe;
+    color:#ffffff;
+    box-shadow: 0 0.05rem 0.2rem 0.01rem rgba(189,227,255, 1);
+}
+.nav{
+    width:100%;
+    height:2.51rem;
+    background: #fbfeff;
+    position: absolute;
+    margin-top: 1.25rem;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav a{
+    width:1.14rem;
+    height:1.14rem;
+    margin-left: 0.5rem;
+    font-size: 0.24rem;
+    color:#8e9397;
+    text-align: center;
+}
+.nav img{
+    width:1.3rem;
+    height:1.3rem;
+}
+.nav a:nth-child(1){
+    margin-left: 0;
+}
+.service{
+    width:100%;
+    height:8.6rem;
+    background: #fbfeff;
+    margin-top: 3.7rem;
+
+}
+.service .service-top{
+    width:7rem;
+    height:0.93rem;
+    margin:0 auto;
+}
+.service .service-top img{
+    margin-top:0.21rem;
+    float: left;
+}
+.service .service-top a{
+    font-size: 0.32rem;
+    float: right;
+    margin-top: -2.3rem;
+    margin-right: 5.35rem;
+    color:#41b2fc;
+}
+.service .service-top span{
+    color:#4f5b64;
+}
+.service .nr{
+    margin-bottom: 0.5rem;
+}
+.service .nr a{
+    width:7.02rem;
+    height:2.28rem;
+    margin:0 auto;
+    display: block;
+    position: relative;
+    margin-top: -0.1rem;
+}
+.service .nr a .lf{
+    width:2rem;
+    height:100%;
+    float: left;
+    position: absolute;
+}
+.service .nr a .rg{
+    width:5.02rem;
+    height:100%;
+    margin-left: 2rem;
+}
+.service .lf .tup{
+    width:100%;
+    height:1.96rem;
+    background: #ffffff;
+    border-radius: 0.1rem;
+    margin-top: 0.31rem;
+    background-image: url("../img/zgl_bao.png");
+    background-size: 1.5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: .01rem 0 .21rem rgba(223,223,223,.43);
+}
+.service .rg h3{
+    font-size: 0.3rem;
+    color:#696b6b;
+    position: absolute;
+    display: block;
+    margin-top: 0.41rem;
+    margin-left: 0.28rem;
+}
+.service .rg p{
+    width:4.78rem;
+    height:0.5rem;
+    border-bottom: 0.01rem solid #f0f5f7;
+    font-size: 0.22rem;
+    color:rgba(0,0,0,0.3);
+    position: absolute;
+    line-height: 0.5rem;
+    margin-top: 0.8rem;
+    margin-left: 0.28rem;
+}
+.service .rg .hp{
+    width:1.3rem;
+    height:0.3rem;
+    position: absolute;
+    margin-top: 1.4rem;
+    margin-left: 0.28rem;
+}
+.service .rg .hp img{
+    position: absolute;
+    margin-top:0.05rem;
+}
+.service .rg .hp h2{
+    font-size: 0.2rem;
+    color:rgba(0,0,0,0.3);
+    margin-left: 0.25rem;
+}
+.service .rg .hp span{
+    position: absolute;
+    font-size: 0.24rem;
+    color:#36a8fe;
+    margin-top: -0.32rem;
+    margin-left: 0.7rem;
+}
+.service .rg .hp i{
+    color:#d3ecff;
+}
+.service .rg .ys{
+    width:1.3rem;
+    height:0.3rem;
+    position: absolute;
+    margin-top: 1.4rem;
+    margin-left: 1.97rem;
+}
+.service .rg .ys img{
+    position: absolute;
+    margin-top:0.05rem;
+}
+.service .rg .ys h2{
+    font-size: 0.2rem;
+    color:rgba(0,0,0,0.3);
+    margin-left: 0.25rem;
+}
+.service .rg .ys span{
+    position: absolute;
+    font-size: 0.24rem;
+    color:#36a8fe;
+    margin-top: -0.32rem;
+    margin-left: 0.7rem;
+}
+.service .rg .sl{
+    width:1.3rem;
+    height:0.3rem;
+    position: absolute;
+    margin-top: 1.4rem;
+    margin-left:4rem;
+    font-size: 0.26rem;
+    color:#fbb548;
+}
+.service .rg .bds{
+    width:1.3rem;
+    height:0.46rem;
+    position: absolute;
+    margin-top: 1.9rem;
+    margin-left:0.28rem;
+
+}
+.service .rg .bds img{
+    width:0.4rem;
+    position: absolute;
+    margin-top:-0.05rem;
+}
+.service .rg .bds h2{
+    font-size: 0.2rem;
+    margin-left: 0.5rem;
+    color:#d2d2d2;
+}
+/* 遮罩开始 */
+.sd_box{
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 10rem 10rem rgba(255, 255, 255, 0.8) inset;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 200;
+    display: none;
+}
+.index_shade{
+    height: 4.91rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.37rem 0.41rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+.index_shade .shade_top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.index_shade .shade_top .shade_shangjia{
+    width: 1.72rem;
+    text-align: center;
+}
+.index_shade .shade_top .shade_shangjia img{
+    width: 100%;
+    height: 1.72rem;
+    display: block;
+    margin-bottom: 0.36rem;
+}
+.index_shade .shade_top .shade_shangjia p{
+    font-size: 0.22rem;
+    color: #7f7f7f;
+}
+.index_shade .shade_top .shade_shiusi{
+    width: 1.72rem;
+    text-align: center;
+}
+.index_shade .shade_top .shade_shiusi img{
+    width: 100%;
+    height: 1.72rem;
+    display: block;
+    margin-bottom: 0.36rem;
+}
+.index_shade .shade_top .shade_shiusi p{
+    font-size: 0.22rem;
+    color: #7f7f7f;
+}
+.index_shade .shade_bottom{
+    width: 0.53rem;
+    height: 0.53rem;
+    border-radius: 50%;
+    background: #f1f5f7;
+    line-height: 0.53rem;
+    text-align: center;
+    color: #76797b;
+    font-size: 0.15rem;
+}
+/* 遮罩结束 */
