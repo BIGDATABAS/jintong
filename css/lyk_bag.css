@@ -1,5 +1,8 @@
+body,html{
+    background: #fbfeff;
+}
 .bagB{
-    width:6.84rem;
+    width:100%;
     height:2.8rem;
     background-image: url("../img/lyk_bg.png");
     background-size:100% 2.27rem;
