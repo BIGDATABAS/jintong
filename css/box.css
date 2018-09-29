@@ -1,0 +1,134 @@
+.big ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 10.78rem;
+}
+.big  ul li{
+    width: 3.38rem;
+    height: 5rem;
+    position: relative;
+}
+.b_top{
+    border-bottom: .01rem solid rgba(216, 223, 227, .3);
+    padding-bottom: .12rem;
+}
+.b_top img{
+    width: 3.19rem;
+    height: 2.38rem;
+}
+.b_top h1{
+    font-size: .3rem;
+    color: rgba(0,0,0,.6);
+}
+.b_nav{
+    display: flex;
+    justify-content: space-between;
+}
+.b_top h6{
+    font-size: .28rem;
+    color: #fbb548;
+}
+.b_top p{
+    font-size: .22rem;
+    color: rgba(0,0,0,.3);
+    font-weight: 800;
+}
+.b_bottom{
+    display: flex;
+    justify-content: space-between;
+    padding-top: .12rem;
+}
+.b_first{
+    display: flex;
+    align-items: center;
+}
+.b_first .b_dot{
+    width: .05rem;
+    height: .05rem;
+    background: #44b5ff;
+    box-shadow: .02rem 0 .05rem rgba(68,181,255,.43);
+    margin-right: .08rem;
+}
+.b_first h5{
+    font-size: .22rem;
+    color: rgba(0,0,0,.3);
+    margin-right: .08rem;
+}
+.b_first span{
+    color: #36a8fe;
+    font-size: .26rem;
+}
+.b_second{
+    display: flex;
+    align-items: center;
+}
+.b_second .b_dot{
+    width: .05rem;
+    height: .05rem;
+    border-radius: 50%;
+    background: #44b5ff;
+    box-shadow: .02rem 0 .05rem rgba(68,181,255,.43);
+    margin-right: .08rem;
+}
+.b_second h5{
+    font-size: .22rem;
+    color: rgba(0,0,0,.3);
+    margin-right: .08rem;
+}
+.b_second span{
+    color: #36a8fe;
+    font-size: .26rem;
+    margin-right: .04rem;
+}
+.b_second p{
+    color: #b9e1ff;
+    font-size: .26rem;
+}
+.b_footer{
+    display: flex;
+    padding-top: .2rem;
+}
+.very{
+    width: 1.21rem;
+    height: .35rem;
+    border-radius: .175rem;
+    background: rgba(59,171,255,.1);
+    text-align: center;
+    line-height: .35rem;
+    margin-right: .1rem;
+}
+.very p{
+    font-size: .2rem;
+    color: #36a8fe;
+    font-weight: 800;
+}
+.price{
+    width: 1.21rem;
+    height: .35rem;
+    border-radius: .175rem;
+    background: rgba(59,171,255,.1);
+    text-align: center;
+    line-height: .35rem;
+}
+.price p{
+    font-size: .2rem;
+    color: #36a8fe;
+    font-weight: 800;
+}
+.Version{
+    width: .54rem;
+    height: .3rem;
+    border-radius: .15rem;
+    box-shadow: .02rem 0 .12rem rgba(55, 223, 116, .75);
+    background-image: linear-gradient(to right, #37e06f, #32d69a);
+    text-align: center;
+    line-height: .3rem;
+    position: absolute;
+    top: .36rem;
+    right: 0;
+}
+.Version h1{
+    font-size: .22rem;
+    color: #ffffff;
+}

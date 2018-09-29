@@ -1,0 +1,172 @@
+body{
+    background: #fbfeff;
+}
+
+.banner {
+    width: 100%;
+    height: 3.63rem;
+    background-image: url("../img/wpc_banner.png");
+    background-size: cover;
+}
+
+.nav {
+    width: 100%;
+    height: 7.3rem;
+    background: #fbfeff;
+    position: relative;
+    padding-top: .62rem;
+}
+
+.small_pos {
+    width: 1.64rem;
+    height: 1.64rem;
+    position: absolute;
+    top: -.6rem;
+    background: white;
+    border-radius: .08rem;
+    box-shadow: .03rem 0 .43rem rgba(41, 167, 255, .13);
+}
+
+.coat {
+    width: 1.64rem;
+    height: 1.64rem;
+}
+
+.more {
+    margin-left: 2.17rem;
+}
+
+.more h3 {
+    font-size: .36rem;
+    font-weight: 800;
+    color: #36a8fe;
+}
+
+.more h3 span {
+    font-size: .36rem;
+    font-weight: 800;
+    color: #36a8fe;
+}
+.Head,first{
+    display: flex;
+    align-items: center;
+    margin-top: .25rem;
+}
+.Head .dots{
+    display: block;
+    width: .05rem;
+    height: .05rem;
+    border-radius: 50%;
+    background: #44b5ff;
+    box-shadow: .02rem 0 .05rem rgba(68,181,255,.43);
+    margin-right: .1rem;
+}
+.Head p{
+    font-size: .2rem;
+    color: #3bacfe;
+    font-weight: 600;
+}
+.goods{
+    width: 2.13rem;
+    height: 1.08rem;
+    border-radius: .08rem;
+    background: rgba(231,246,255,.5);
+    margin-top: .12rem;
+    margin-bottom: .25rem;
+}
+.goods h4{
+    font-size: .24rem;
+    color: #3bacfe;
+    text-align: center;
+    line-height: 1.08rem;
+    font-weight: 600;
+}
+.buy{
+    margin-top: .14rem;
+    display: flex;
+    align-items: center;
+}
+.remove{
+    width: 1.18rem;
+    height: .52rem;
+    border-radius: .26rem;
+    background: rgba(59,172,254,.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.over{
+    width: .3rem;
+    height: .2rem;
+    text-align: center;
+    line-height: .1rem;
+}
+.r_remove{
+    font-size: .36rem;
+    color: #3bacfe ;
+}
+.a_add{
+    font-size: .36rem;
+    color: #ffffff ;
+}
+.money{
+    font-size: .26rem;
+    color: #36a8fe;
+    margin-left: .16rem;
+    margin-right: .16rem;
+    font-weight: 800;
+}
+.add{
+    width: 1.18rem;
+    height: .52rem;
+    border-radius: .26rem;
+    background: rgb(59,172,254);
+    box-shadow: .05rem 0 .12rem rgba(29,172,254,.43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.big{
+    width: 100%;
+    height: 1.08rem;
+    background: #f1faff;
+    position: fixed;
+    bottom: 0;
+}
+footer{
+    width: 100%;
+    height: 1.08rem;
+    background: #f1faff;
+
+}
+.shop_car{
+    width: 1.96rem;
+    height: .6rem;
+    border-radius: .3rem;
+    background-image: linear-gradient(to right,#37e06f,#32d69a);
+    float: right;
+    margin-right: .3rem;
+    box-shadow: .04rem 0 .2rem rgba(55,223,116,.75);
+    margin-top: .26rem;
+    text-align: center;
+    line-height: .6rem;
+}
+.order{
+    width: 1.96rem;
+    height: .6rem;
+    border-radius: .3rem;
+    background: #3bacfe;
+    float: right;
+    box-shadow: .05rem 0 .12rem rgba(59,172,254,.43);
+    margin-top: .26rem;
+    text-align: center;
+    line-height: .6rem;
+}
+.order h4{
+    font-size: .2rem;
+    color: #ffffff;
+}
+.shop_car h4{
+    font-size: .2rem;
+    color: #ffffff;
+}
