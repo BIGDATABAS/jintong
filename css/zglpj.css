@@ -96,6 +96,13 @@
     margin-left: 1.2rem;
 }
 .pj .pj-nr .gr{
-    margin-left: 4.9rem;
-    margin-top: -0.33rem;
+    width:1.5rem;
+    height:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5.5rem;
+}
+.pj .pj-nr .gr img{
+    width:0.7rem;
 }
