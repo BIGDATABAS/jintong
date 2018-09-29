@@ -28,7 +28,7 @@
 					</div>
 					<p>宅快修<i class="iconfont icon-dayuhao"></i></p>
 				</div>
-				<i class="iconfont icon-shanchu"></i>
+				<i class="iconfont icon-shanchu back"></i>
 			</div>
 			<div class="li_zhong">
 				<div class="yuan vid">
@@ -63,7 +63,7 @@
 					</div>
 					<p>宅快修<i class="iconfont icon-dayuhao"></i></p>
 				</div>
-				<i class="iconfont icon-shanchu"></i>
+				<i class="iconfont icon-shanchu back1"></i>
 			</div>
 			<div class="li_zhong">
 				<div class="yuan vid1">
@@ -131,10 +131,17 @@
 	$("main .li_zhong .vid1").click(function(){
 		$("main .li_zhong .vid1 img").toggle();
 	})
-	let back=$("main .li_top .icon-shanchu");
+	let back=$("main .li_top .back");
+	let back1=$("main .li_top .back1");
 	back.click(function(){
 		// let i=$(this).index();
+		$("main .list").eq(0).hide();
+	})
+	back1.click(function(){
 		$("main .list").eq(1).hide();
+		$(".ls").hide();
+		$("footer").slideUp('slow');
+		location.href="gq_false.html";
 	})
 	console.log($("main .list"));
 </script>
