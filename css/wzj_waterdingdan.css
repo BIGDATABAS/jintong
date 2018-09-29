@@ -2,7 +2,7 @@
 * @Author: wzj1136
 * @Date:   2018-09-26 23:15:02
 * @Last Modified by:   wzj1136
-* @Last Modified time: 2018-09-28 14:23:27
+* @Last Modified time: 2018-09-29 16:46:30
 */
 .top{
 	margin-bottom: 0.28rem;
@@ -73,6 +73,7 @@
 	height: 1.72rem;
 	background: #fff;
 	padding: 0.22rem;
+	box-shadow: 0 0.01rem 0.21rem 0 rgba(223, 223, 223, 0.43);
 }
 .order_tro .tro_left img{
 	width: 1.2rem;

@@ -37,7 +37,7 @@
     height: 0.06rem;
     background: #32d796;
     top: 0.2rem;
-    left: 3.4rem;
+    left: 2.4rem;
     border-radius: 0.05rem;
     box-shadow: 0 0.02rem 0.05rem 0 rgba(52, 218, 135, 0.43);
 }
@@ -48,7 +48,7 @@
     height: 0.06rem;
     background: #32d796;
     top: 0.2rem;
-    right: 3.4rem;
+    right: 2.4rem;
     border-radius: 0.05rem;
     box-shadow: 0 0.02rem 0.05rem 0 rgba(52, 218, 135, 0.43);
 }
@@ -67,7 +67,7 @@
 .wzj_top .top_last{
     width: 100%;
     height: 1.41rem;
-    padding: 0 2.4rem;
+    padding: 0 1.4rem;
     display: flex;
     justify-content: space-between;
 }
