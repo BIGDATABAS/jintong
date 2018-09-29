@@ -2,7 +2,7 @@
 * @Author: wzj1136
 * @Date:   2018-09-27 11:46:51
 * @Last Modified by:   wzj1136
-* @Last Modified time: 2018-09-28 15:14:45
+* @Last Modified time: 2018-09-29 13:56:50
 */
 $(function(){
 	$(".date").click(function(){
@@ -14,7 +14,6 @@ $(function(){
 		$(this).addClass('bot_solid');
 		$(".day_choose").fadeOut('slow');
 		$(".day_choose").eq(i).fadeIn('slow');
-
 		$(".date_before").html($(this).children('.date_after').html());
 
 	})
