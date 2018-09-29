@@ -22,6 +22,8 @@ nav{
 }
 .index_nav .index_location{
 	width: 0.84rem;
+	line-height: 0.77rem;
+	height: 0.77rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -88,6 +90,7 @@ nav{
 	padding-left: 0.28rem;
 	padding-right: 0.28rem;
 	padding-top: 0.46rem;
+	margin-bottom: 1rem;
 }
 .index_service ul{
 	width: 100%;
