@@ -5,6 +5,7 @@
     <title>申请退款</title>
     <link rel="stylesheet" href="css/refund-both.css">
     <link rel="stylesheet" href="css/base.css">
+    <script src="js/jquery-3.3.1.js"></script>
 </head>
 <body>
     <div class="top">
@@ -52,16 +53,16 @@
             <div class="text">
                 <div class="con">
                     <img src="img/refund-3.png" alt="">
-                    <h3>退款<span>状态</span></h3>
+                    <h3>服务<span>类型</span></h3>
                 </div>
-                <p>请选择 <img src="img/refund-only-1.png" alt=""></p>
+                <p><spanc class="mains">请选择</spanc> <img src="img/refund-only-1.png" alt=""></p>
             </div>
             <div class="text">
                 <div class="con">
                     <img src="img/refund-3.png" alt="">
                     <h3>退款<span>原因</span></h3>
                 </div>
-                <p>买错了 <img src="img/refund-only-1.png" alt=""></p>
+                <p><span class="mains">买错了</span> <img src="img/refund-only-1.png" alt=""></p>
             </div>
             <div class="text">
                 <div class="con">
@@ -80,11 +81,101 @@
                     <img src="img/refund-only-3.png" alt="">
                 </div>
             </div>
-
         </div>
     </div>
     <div class="submit">
         <a href="refund-detail.html"><button>提交</button></a>
     </div>
+    <div class="alert">
+        <div class="container">
+            <div class="title">
+                <h2>退货<span>状态</span></h2>
+            </div>
+            <div class="text">
+                <div class="text_post">
+                    <div class="post"></div>
+                    <p>仅退款</p>
+                </div>
+                <div class="circle"></div>
+            </div>
+            <div class="text">
+                <div class="text_post">
+                    <div class="post"></div>
+                    <p>退款退货</p>
+                </div>
+                <div class="circle"></div>
+            </div>
+            <button class="bottom_close">关闭</button>
+            <div class="close">x</div>
+        </div>
+    </div>
+    <div class="alert">
+        <div class="container">
+            <div class="title">
+                <h2>退款<span>原因</span></h2>
+            </div>
+            <div class="text">
+                <div class="text_post">
+                    <div class="post"></div>
+                    <p>退运费</p>
+                </div>
+                <div class="circle"></div>
+            </div>
+            <div class="text">
+                <div class="text_post">
+                    <div class="post"></div>
+                    <p>大小／尺寸与商品描述不符</p>
+                </div>
+                <div class="circle"></div>
+            </div>
+            <div class="text">
+                <div class="text_post">
+                    <div class="post"></div>
+                    <p>颜色／款式／型号与商品描述不符</p>
+                </div>
+                <div class="circle"></div>
+            </div>
+            <div class="text">
+                <div class="text_post">
+                    <div class="post"></div>
+                    <p>材质与商品描述不符</p>
+                </div>
+                <div class="circle"></div>
+            </div>
+            <div class="text">
+                <div class="text_post">
+                    <div class="post"></div>
+                    <p>做工粗糙有瑕疵</p>
+                </div>
+                <div class="circle"></div>
+            </div>
+            <div class="text">
+                <div class="text_post">
+                    <div class="post"></div>
+                    <p>质量问题</p>
+                </div>
+                <div class="circle"></div>
+            </div>
+            <button class="bottom_close">关闭</button>
+            <div class="close">x</div>
+        </div>
+    </div>
+    <script src="js/alerts.js"></script>
 </body>
 </html>
+<script>
+    let renson=$(".contact .text:eq(0)");
+    let alerts=$(".alert:eq(0)");
+    let close=$(".close");
+    let button=$(".bottom_close");
+    let texts=$(".alert:eq(0) .text");
+    let mains=$(".mains:first");
+    find(renson,alerts,close,button,texts,mains);
+    let renson1=$(".contact .text:eq(1)");
+    let alerts1=$(".alert:eq(1)");
+    let close1=$(".close");
+    let button1=$(".bottom_close");
+    let texts1=$(".alert:eq(1) .text");
+    let mains1=$(".mains:last");
+    find(renson1,alerts1,close1,button1,texts1,mains1);
+</script>

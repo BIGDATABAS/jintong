@@ -6,6 +6,7 @@
 
     <link rel="stylesheet" href="css/refund-only.css">
     <link rel="stylesheet" href="css/base.css">
+    <script src="js/jquery-3.3.1.js"></script>
 </head>
 <body>
     <div class="top">
@@ -55,7 +56,7 @@
                     <img src="img/refund-3.png" alt="">
                     <h3>退款<span>原因</span></h3>
                 </div>
-                <p>买错了 <img src="img/refund-only-1.png" alt=""></p>
+                <p><span class="mains">买错了</span> <img src="img/refund-only-1.png" alt=""></p>
             </div>
             <div class="text">
                 <div class="con">
@@ -80,5 +81,66 @@
     <div class="submit">
         <a href="refund-detail.html"><button>提交</button></a>
     </div>
+    <div class="alert">
+        <div class="container">
+            <div class="title">
+                <h2>退款<span>原因</span></h2>
+            </div>
+            <div class="text">
+                <div class="text_post">
+                    <div class="post"></div>
+                    <p>退运费</p>
+                </div>
+                <div class="circle"></div>
+            </div>
+            <div class="text">
+                <div class="text_post">
+                    <div class="post"></div>
+                    <p>大小／尺寸与商品描述不符</p>
+                </div>
+                <div class="circle"></div>
+            </div>
+            <div class="text">
+                <div class="text_post">
+                    <div class="post"></div>
+                    <p>颜色／款式／型号与商品描述不符</p>
+                </div>
+                <div class="circle"></div>
+            </div>
+            <div class="text">
+                <div class="text_post">
+                    <div class="post"></div>
+                    <p>材质与商品描述不符</p>
+                </div>
+                <div class="circle"></div>
+            </div>
+            <div class="text">
+                <div class="text_post">
+                    <div class="post"></div>
+                    <p>做工粗糙有瑕疵</p>
+                </div>
+                <div class="circle"></div>
+            </div>
+            <div class="text">
+                <div class="text_post">
+                    <div class="post"></div>
+                    <p>质量问题</p>
+                </div>
+                <div class="circle"></div>
+            </div>
+            <button class="bottom_close">关闭</button>
+            <div class="close">x</div>
+        </div>
+    </div>
+    <script src="js/alerts.js"></script>
 </body>
 </html>
+<script>
+    let renson=$(".contact .text:eq(0)");
+    let alerts=$(".alert");
+    let close=$(".close");
+    let button=$(".bottom_close");
+    let texts=$(".alert .text");
+    let mains=$(".mains");
+    find(renson,alerts,close,button,texts,mains);
+</script>
