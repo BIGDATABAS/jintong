@@ -1,0 +1,114 @@
+.sel{
+    width:100%;
+    height:auto;
+    margin-top:0.28rem;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sel .selIn{
+    width:7.02rem;
+    height:3.27rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-bottom: 0.01rem solid rgba(0,0,0,0.04);
+}
+.sel ul{
+    width:7.02rem;
+    height:2.4rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.sel ul li{
+    width:2.18rem;
+    height:1.1rem;
+    color:#3bacfe;
+    background:#f1faff;
+    text-align: center;
+    border-radius: 0.08rem;
+}
+.sel ul li h1{
+    font-size: 0.4rem;
+    font-weight: bold;
+    margin-top:0.1rem;
+}
+.sel ul li h1 i{
+    font-size: 0.3rem;
+    font-weight: bold;
+    color:#8dcffe;
+}
+.sel ul li h2{
+    font-size: 0.2rem;
+}
+.sel ul li h2 i{
+    font-size: 0.28rem;
+    font-weight: bold;
+}
+/*附加类*/
+.sel ul li.hot{
+    background:#3bacfe;
+    color:#fff;
+}
+.sel ul li.cro{
+    background-image: url("../img/lyk_crown.png");
+    background-repeat: no-repeat;
+    background-size: 0.32rem 0.28rem;
+    background-position: right 0.1rem top 0.1rem;
+}
+
+.sel .text{
+    font-size:0.2rem;
+    color:#9bc9ea;
+    width:100%;
+    height:0.8rem;
+    padding-left:0.64rem;
+    padding-right:0.64rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.num{
+    width:7.02rem;
+    height:auto;
+    margin:0 auto;
+    margin-top:0.8rem;
+}
+form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+form input{
+    width:4.66rem;
+    height:0.76rem;
+    border:0.01rem solid #def0fc;
+    border-radius: 0.08rem;
+    outline: none;
+    padding-left:0.24rem;
+}
+input::-webkit-input-placeholder{
+    color: #97c6e9;
+    font-size: 0.24rem;
+}
+
+form .footer{
+    width: 1.96rem;
+    height: 0.6rem;
+    border:none;
+    outline: none;
+    border-radius: 0.3rem;
+    margin: 0 auto;
+    background: -webkit-linear-gradient(left,#37e06f,#32d69a);
+    display: block;
+    box-shadow: 0 0.04rem 0.2rem rgba(55, 223, 116, 0.75);
+}
+form .footer a{
+    color: #fff;
+    font-size: 0.2rem;
+    line-height: 0.6rem;
+    text-align: center;
+}
+

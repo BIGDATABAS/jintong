@@ -1,5 +1,5 @@
-*{
-	box-sizing: border-box;
+body,html{
+	background: #fbfeff;
 }
 
 .info{
@@ -63,6 +63,7 @@
 .info .inRight h4{
 	font-size:0.28rem;
 	padding-right: 0.28rem;
+	color: rgb(0, 0,0,0.5);
 }
 .info .inRight h5{
 	font-size:0.28rem;

@@ -1,9 +1,10 @@
-body{
+body,html{
 	background: #fbfeff;
 }
 .gold{
 	width: 100%;
 	height: auto;
+	margin-top:0.28rem;
 	display: flex;
 	justify-content: center;
 }

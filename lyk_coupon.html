@@ -8,8 +8,19 @@
     <title>优惠券</title>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/lyk_coupon.css">
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/lyk_coupon.js"></script>
 </head>
 <body>
+<div class="top">
+	<a href="lyk_person.html">
+		<img src="img/wpc_Back.png" alt="" class="Back">
+	</a>
+	<div class="container">
+		<h2>优惠券</h2>
+	</div>
+	<!--<img src="img/wpc_Dots.png" alt="" class="Dots">-->
+</div>
 	<div class="sele">
 		<ul>
 			<li class="col">未使用</li>
@@ -17,93 +28,129 @@
 			<li>已过期</li>
 		</ul>
 	</div>
+	<div class="us">
+		<!-- 未使用 -->
+		<div class="using">
+			<div class="mf">
+				<ul>
+					<li>
+						<div class="mif">
+							<img src="img/lyk_mf.png" alt="">
+							<h1>MIF洗衣店</h1>
+							<h2>订单满100元即可使用</h2>
+							<span>20<i>元</i></span>
+						</div>
+						<div class="data">
+							<h4>•有效期至&nbsp;2018.5.10</h4>
+							<div class="use">
+								立即使用
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="mif">
+							<img src="img/lyk_mf.png" alt="">
+							<h1>MIF洗衣店</h1>
+							<h2>订单满100元即可使用</h2>
+							<span>20<i>元</i></span>
+						</div>
+						<div class="data">
+							<h4>•有效期至&nbsp;2018.5.10</h4>
+							<div class="useT">
+								立即使用
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="mif">
+							<img src="img/lyk_mf.png" alt="">
+							<h1>MIF洗衣店</h1>
+							<h2>订单满100元即可使用</h2>
+							<span>20<i>元</i></span>
+						</div>
+						<div class="data">
+							<h4>•有效期至&nbsp;2018.5.10</h4>
+							<div class="useS">
+								立即使用
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
 
-	<!-- 未使用 -->
-	<div class="using">
-		<div class="mf">
-		<ul>
-			<li>
-				<div class="mif">
-					<img src="img/lyk_mf.png" alt="">
-					<h1>MIF洗衣店</h1>
-					<h2>订单满100元即可使用</h2>
-					<span>20<i>元</i></span>
-				</div>
-				<div class="data">
-					<h4>•有效期至&nbsp;2018.5.10</h4>
-					<div class="use">
-						立即使用
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="mif">
-					<img src="img/lyk_mf.png" alt="">
-					<h1>MIF洗衣店</h1>
-					<h2>订单满100元即可使用</h2>
-					<span>20<i>元</i></span>
-				</div>
-				<div class="data">
-					<h4>•有效期至&nbsp;2018.5.10</h4>
-					<div class="useT">
-						立即使用
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="mif">
-					<img src="img/lyk_mf.png" alt="">
-					<h1>MIF洗衣店</h1>
-					<h2>订单满100元即可使用</h2>
-					<span>20<i>元</i></span>
-				</div>
-				<div class="data">
-					<h4>•有效期至&nbsp;2018.5.10</h4>
-					<div class="useS">
-						立即使用
-					</div>
-				</div>
-			</li>
-		</ul>
-	</div>
-	</div>
-	
+		<!-- 已使用 -->
+		<div class="used">
+			<div class="mf">
+				<ul>
+					<li>
+						<div class="mif">
+							<img src="img/lyk_mf.png" alt="">
+							<h1>MIF洗衣店</h1>
+							<h2>订单满100元即可使用</h2>
+							<span>20<i>元</i></span>
+						</div>
+						<div class="data">
+							<h4>•有效期至&nbsp;2018.5.10</h4>
+							<div class="useS">
+								立即使用
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="mif">
+							<img src="img/lyk_mf.png" alt="">
+							<h1>MIF洗衣店</h1>
+							<h2>订单满100元即可使用</h2>
+							<span>20<i>元</i></span>
+						</div>
+						<div class="data">
+							<h4>•有效期至&nbsp;2018.5.10</h4>
+							<div class="useS">
+								立即使用
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
 
-	<!-- 已使用 -->
-	<div class="used">
-		<div class="mf">
-		<ul>
-			<li>
-				<div class="mif">
-					<img src="img/lyk_mf.png" alt="">
-					<h1>MIF洗衣店</h1>
-					<h2>订单满100元即可使用</h2>
-					<span>20<i>元</i></span>
-				</div>
-				<div class="data">
-					<h4>•有效期至&nbsp;2018.5.10</h4>
-					<div class="useS">
-						立即使用
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="mif">
-					<img src="img/lyk_mf.png" alt="">
-					<h1>MIF洗衣店</h1>
-					<h2>订单满100元即可使用</h2>
-					<span>20<i>元</i></span>
-				</div>
-				<div class="data">
-					<h4>•有效期至&nbsp;2018.5.10</h4>
-					<div class="useS">
-						立即使用
-					</div>
-				</div>
-			</li>
-		</ul>
+		<!-- 过期 -->
+		<div class="dateBack">
+			<div class="mf">
+				<ul>
+					<li>
+						<div class="mif">
+							<img src="img/lyk_mf.png" alt="">
+							<h1>MIF洗衣店</h1>
+							<h2>订单满100元即可使用</h2>
+							<span>20<i>元</i></span>
+						</div>
+						<div class="data">
+							<h4>•有效期至&nbsp;2018.5.10</h4>
+							<div class="useS">
+								立即使用
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="mif">
+							<img src="img/lyk_mf.png" alt="">
+							<h1>MIF洗衣店</h1>
+							<h2>订单满100元即可使用</h2>
+							<span>20<i>元</i></span>
+						</div>
+						<div class="data">
+							<h4>•有效期至&nbsp;2018.5.10</h4>
+							<div class="useS">
+								立即使用
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
 	</div>
-	</div>
-	
+
 </body>
 </html>

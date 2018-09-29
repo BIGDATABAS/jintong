@@ -31,6 +31,10 @@
 	z-index: 20;
 }
 
+/* 未使用 */
+.using{
+	display: block;
+}
 .mf{
 	width: 100%;
 	height: auto;
@@ -87,7 +91,7 @@
 .mf ul li span i{
 	font-size: 0.22rem;
 	color: #fff;
-	margin-left: -0.24rem;
+	/*margin-left:-0.2rem;*/
 }
 .mf .data{
 	width: 100%;
@@ -133,12 +137,23 @@
 
 /* 已使用 */
 .used{
-	/* display: none; */
+	display: none;
 } 
 .used .mf ul li{
 	background: #d7e0e3;
 	box-shadow: none;
 }
 .used .mf ul li .useS{
+	color:#d7e0e3 ;
+}
+/* 过期 */
+.dateBack{
+	display: none;
+}
+.dateBack .mf ul li{
+	background: #d7e0e3;
+	box-shadow: none;
+}
+.dateBack .mf ul li .useS{
 	color:#d7e0e3 ;
 }

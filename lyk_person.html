@@ -8,58 +8,90 @@
     <title>个人中心</title>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/lyk_person.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
 </head>
 <body>
+<div class="top">
+    <img src="img/wpc_Back.png" alt="" class="Back">
+    <div class="container">
+        <h2>个人中心</h2>
+    </div>
+    <!--<img src="img/wpc_Dots.png" alt="" class="Dots">-->
+</div>
     <div class="person">
         <div class="stu">
-            <img src="img/lyk_people.png" alt="" class="peo">
+            <a href="lyk_info.html">
+                <img src="img/lyk_people.png" alt="" class="peo">
+            </a>
             <h2>韩梅梅同学</h2>
-            <span>去升级 <i>•</i><i>•</i><i>•</i></span>
-            <img src="img/lyk_crown.png" alt="" class="crow">
-            <i>黄金会员</i>
+            <a href="gq_member.html"><span>去升级 <i>•</i><i>•</i><i>•</i></span></a>
+            <div class="mem">
+                <img src="img/lyk_crown.png" alt="" class="crow">
+                <i>黄金会员</i>
+            </div>
         </div>
         <div class="data">
-            <div class="money">
-                <h3>260</h3>
-                <h4>余额</h4>
-            </div>
-            <div class="pre">
-                <h3>06</h3>
-                <h4>优惠券</h4>
-            </div>
-            <div class="gold">
-                <h3>489</h3>
-                <h4>金币</h4>
-            </div>
+            <a href="lyk_bag.html">
+                <div class="money">
+                    <h3>260</h3>
+                    <h4>余额</h4>
+                </div>
+            </a>
+            <a href="lyk_coupon.html">
+                <div class="pre">
+                    <h3>06</h3>
+                    <h4>优惠券</h4>
+                </div>
+            </a>
+            <a href="lyk_gold.html">
+                <div class="gold">
+                    <h3>489</h3>
+                    <h4>金币</h4>
+                </div>
+            </a>
+
         </div>
     </div>
 
     <div class="bot">
         <ul>
-            <li>
-                <img src="img/lyk_dot.png" alt="">
-                <h3>&nbsp;钱包</h3>
-            </li>
-            <li>
-                <img src="img/lyk_dot.png" alt="">
-                <h3>&nbsp;购物车</h3>
-            </li>
-            <li>
-                <img src="img/lyk_dot.png" alt="">
-                <h3>&nbsp;常用地址</h3>
-            </li>
-            <li>
-                <img src="img/lyk_dot.png" alt="">
-                <h3>&nbsp;客服中心</h3>
-            </li>
-            <li>
-                <img src="img/lyk_dot.png" alt="">
-                <h3>&nbsp;帮助</h3>
-            </li>
-            <li>
-                <img src="img/lyk_dot.png" alt="">
-                <h3>&nbsp;关于我们</h3>
-            </li>
+            <a href="lyk_bag.html">
+                <li>
+                    <img src="img/lyk_dot.png" alt="">
+                    <h3>&nbsp;钱包</h3>
+                </li>
+            </a>
+            <a href="gq_shopping.html">
+                <li>
+                    <img src="img/lyk_dot.png" alt="">
+                    <h3>&nbsp;购物车</h3>
+                </li>
+            </a>
+            <a href="wzj_use_address.html">
+                <li>
+                    <img src="img/lyk_dot.png" alt="">
+                    <h3>&nbsp;常用地址</h3>
+                </li>
+            </a>
+            <a href="gq_center">
+                <li>
+                    <img src="img/lyk_dot.png" alt="">
+                    <h3>&nbsp;客服中心</h3>
+                </li>
+            </a>
+            <a href="gq_help2.html">
+                <li>
+                    <img src="img/lyk_dot.png" alt="">
+                    <h3>&nbsp;帮助</h3>
+                </li>
+            </a>
+            <a href="gq_about us.html">
+                <li>
+                    <img src="img/lyk_dot.png" alt="">
+                    <h3>&nbsp;关于我们</h3>
+                </li>
+            </a>
+
             <li>
                 <img src="img/lyk_dot.png" alt="">
                 <h3>&nbsp;监督热线</h3>
@@ -67,5 +99,78 @@
             </li>
         </ul>
     </div>
+
+<!-- 底部开始 -->
+<footer>
+    <ul class="foot">
+        <a href="index.html">
+            <li>
+                <img src="img/index-no.png" alt="" class="img_1">
+                <p class="yes">首页</p>
+            </li>
+        </a>
+        <a href="zgl_jt.html">
+            <li>
+                <img src="img/shop-no.png" alt="" class="img_2">
+                <p class="no">商城</p>
+            </li>
+        </a>
+        <a href="javascript:;">
+            <li class="ruzhu">
+                <img src="img/enter-no.png" alt="" class="img_3">
+                <p class="no">入驻</p>
+            </li>
+        </a>
+        <a href="zx_order3.html">
+            <li>
+                <img src="img/order-no.png" alt="" class="img_4">
+                <p class="no">订单</p>
+            </li>
+        </a>
+        <a href="javascript:;">
+            <li>
+                <img src="img/my-yes.png" alt="" class="img_5">
+                <p class="no">我的</p>
+            </li>
+        </a>
+
+    </ul>
+</footer>
+<!-- 底部结束 -->
+
+<!-- 遮罩开始 -->
+<div class="sd_box">
+    <div class="index_shade">
+        <div class="shade_top">
+            <div class="shade_shangjia ruzhu">
+                <img src="img/wqq_shanagjia.png" alt="">
+                <p class="shade_text">商家入驻</p>
+            </div>
+            <div class="shade_shiusi">
+                <img src="img/wqq_shiusi.png" alt="">
+                <p class="shade_text">水司入驻</p>
+            </div>
+        </div>
+        <div class="shade_bottom">X</div>
+    </div>
+</div>
+<!-- 遮罩结束 -->
 </body>
 </html>
+<script>
+    $(function(){
+        let btn=$(".ruzhu");
+        let shade=$(".sd_box");
+        let close=$(".shade_bottom");
+        btn.click(function(){
+            shade.css("display","block");
+        });
+
+        close.click(function(){
+            shade.css("display","none");
+        });
+
+
+    })
+
+</script>
