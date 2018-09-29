@@ -95,6 +95,7 @@ input::-webkit-input-placeholder{
 }
 
 form .footer{
+    color: #fff;
     width: 1.96rem;
     height: 0.6rem;
     border:none;
@@ -106,7 +107,7 @@ form .footer{
     box-shadow: 0 0.04rem 0.2rem rgba(55, 223, 116, 0.75);
 }
 form .footer a{
-    color: #fff;
+
     font-size: 0.2rem;
     line-height: 0.6rem;
     text-align: center;
