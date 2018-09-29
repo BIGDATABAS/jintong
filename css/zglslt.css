@@ -58,19 +58,18 @@
     border-top:0.01rem solid #f0f5f7;
     border-bottom: 0.01rem solid #f0f5f7;
     margin:0.44rem auto;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .details .yh img{
     display: block;
-    margin-top: 0.1rem;
+    margin-left: -3rem;
 }
 .details .yh b{
     font-size: 0.24rem;
     color:#ff844e;
-    position: absolute;
-    margin-top: -0.6rem;
-    margin-left: 0.95rem;
-    float: left;
+    margin-right: 0.2rem;
 }
 .details .yh .mj{
     width:2.55rem;
@@ -79,8 +78,6 @@
     background-size: 10rem;
     background-repeat: no-repeat;
     background-position: -1.6rem -0.87rem;
-    margin-top: -0.75rem;
-    margin-left: 1.5rem;
     font-size: 0.3rem;
     color:#ffffff;
     text-align: center;
