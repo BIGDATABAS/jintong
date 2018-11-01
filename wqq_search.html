@@ -80,10 +80,9 @@
 	console.log(input);
 	btn.click(function(){
 		if(!input.val()){
-			window.open("wqq_sh_false.html");
+			window.location.href="wqq_sh_false.html";
 		}else if(input.val()=="水管"||input.val()=="水龙头"){
-			console.log(input.val());
-			window.open("wqq_sh_true.html");
+			window.location.href="wqq_sh_true.html";
 		}
 	});
 	

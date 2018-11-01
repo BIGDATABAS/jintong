@@ -299,7 +299,7 @@ button{
 .close{
     position: absolute;
     top: 0.2rem;
-    right: 0.24rem;
+    right: 0.3rem;
     z-index: 3;
     font-size: 0.45rem;
     color: rgba(0,0,0,0.4);

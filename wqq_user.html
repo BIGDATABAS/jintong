@@ -53,14 +53,13 @@
 		let num=$(".num_in");
 		let quyu=$(".quyu_in");
 		let btn=$(".login_fast");
-		console.log(name,dizhi,num,quyu,btn);
 
 		btn.click(function(){
 			if(name.val()){
 				if(dizhi.val()){
 					if(num.val().length==11){
 						if(quyu.val()){
-							window.open("wqq_login.html");
+							window.location.href="wqq_login.html";
 						}else{
 							alert("区域不能为空");
 						}
